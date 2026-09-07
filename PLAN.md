@@ -26,7 +26,7 @@ Preferred formats:
 - cloze
 - error correction
 - choose between near-synonyms and explain why
-- use a target phrase in a new technical sentence
+- use a target word/phrase/pattern in a new technical or everyday sentence
 
 ### 2. Listening — 8 min
 This is the highest-priority skill and should appear in most full multimodal sessions.
@@ -41,15 +41,40 @@ Rotate formats:
 
 Use technical and practical everyday topics rather than generic exam listening whenever possible.
 
-### 3. New language from context — 5 min
-Select about 4–7 genuinely useful items from the day's input.
+### 3. Contextual language learning — 5–7 min
+Select about **4–7 genuinely useful new language items** from the day's listening, reading, learner errors, or output needs.
 
-Prefer:
-- collocations
-- reusable sentence patterns
-- technical terms that recur in real activities
-- spoken chunks that improve listening recognition
-- distinctions that prevent common mistakes
+Use a mix of:
+- **words**,
+- **phrases / collocations / chunks**,
+- **sentence patterns**,
+- **domain expressions**.
+
+Prefer phrases/chunks and reusable sentence patterns over isolated vocabulary when possible.
+
+Each item should normally include:
+- the meaning relevant to the current situation,
+- a useful collocation or grammar note when needed,
+- **at least one natural contextual example**,
+- a brief contrast/common mistake only when useful,
+- one chance to retrieve or use it.
+
+Examples should be tied to realistic contexts such as AI/Agent instructions, GitHub/debugging, Blender/3D, hardware/gaming, engineering, or ordinary conversation.
+
+Do not teach items only as dictionary pairs such as `constraint = 约束`. Prefer something like:
+
+- `constraint` — the limitation/condition that restricts what can be done
+- `under this constraint`, `hardware constraint`
+- `Do not change the production code; treat that as a hard constraint.`
+- `VRAM is the main constraint when rendering this scene at 4K.`
+
+For a sentence pattern, teach the reusable frame plus contextual examples, for example:
+
+- `The issue is not X; it's Y.`
+- `The issue is not model capability; it's the way the harness provides context.`
+- `The issue is not average FPS; it's the frame-time spikes.`
+
+Do not create one separate drill for every item. Several items can be reused together in the production task.
 
 ### 4. Technical writing / active production — 7 min
 Rotate realistic outputs:
@@ -61,16 +86,18 @@ Rotate realistic outputs:
 - describe a Blender pose/rendering problem
 - compare hardware options
 - translate an engineering observation
+- use 2–4 of today's new words/phrases/patterns naturally in one task
 
-### 5. Speaking + wrap-up — 5 min
+### 5. Speaking + wrap-up — 4–5 min
 When voice is available:
 - 2–4 minute role-play, spoken summary, clarification, disagreement, or technical explanation
+- reuse one or more new chunks naturally
 - one focused fluency/pronunciation correction if useful
 
 Then:
-- correct only important recurring errors
-- do one final retrieval check
-- update the session log and review queue
+- correct only important recurring errors,
+- do one final retrieval check,
+- update the session log and review queue.
 
 If audio/voice is unavailable, convert this block to writing/reading and leave audio-specific targets pending.
 
@@ -82,7 +109,7 @@ Default caps for a full lesson:
 
 - review: 2–3 prompts total,
 - listening: one spoken item, at most two passes, at most 3 comprehension prompts,
-- new language: 4–7 items presented compactly,
+- contextual language: 4–7 items total,
 - writing/Prompt: one task, one first attempt, focused feedback, at most one revision,
 - speaking: one short segment with focused correction,
 - then wrap up.
@@ -102,19 +129,29 @@ Then the lesson **must leave the reading block**. Do not generate more comprehen
 
 Poor performance is evidence for future review, not a reason to trap the learner in the same block.
 
+### Language-learning exit condition
+
+A contextual language block is complete after:
+
+1. 4–7 items in a normal lesson or 2–4 in a quick/manual lesson,
+2. brief contextual explanation/examples,
+3. one compact recall/reuse activity, possibly combining several items.
+
+Then move on. Do not expand into an open-ended vocabulary list or drill every item repeatedly in the same session.
+
 ### Quick/manual session exit condition
 
 A ~10–15 minute `摸鱼学习` session should normally contain at most 3 stages:
 
 1. up to 2 review prompts,
-2. one short input block with at most 2 comprehension questions **or** one compact explanation,
-3. one active output task with at most one revision.
+2. one short input/context block plus **2–4 useful words/phrases/patterns** drawn from it,
+3. one active output task using at least one of those items, with at most one revision.
 
 Then end the session, summarize briefly, and update state. If the learner says they have more time, expand deliberately; do not expand automatically.
 
 ### Progress marker
 
-A compact marker such as `2/4 · Reading` or `3/4 · Prompt` may be shown so the learner can see that the lesson is progressing toward an end.
+A compact marker such as `2/4 · Context & phrases` or `3/4 · Prompt` may be shown so the learner can see that the lesson is progressing toward an end.
 
 ---
 
@@ -122,15 +159,15 @@ A compact marker such as `2/4 · Reading` or `3/4 · Prompt` may be shown so the
 
 Designed for a busy day or daytime work break.
 
-- 3 min: due review
-- 4 min: one short realistic input or listening item if practical
-- 3 min: one active output task
+- 2–3 min: due review
+- 3–4 min: one short realistic input/context + 2–4 language items
+- 3–4 min: one active output task that reuses at least one new item
 
 During weekday work hours, default to text-only reading/writing unless the learner explicitly requests voice/audio.
 
 ## Extra-time session (+15–30 min)
 
-Add one substantial activity rather than more vocabulary:
+Add one substantial activity rather than a large vocabulary dump:
 
 - longer listening with no transcript first
 - voice role-play
@@ -139,6 +176,7 @@ Add one substantial activity rather than more vocabulary:
 - realistic GitHub/Agent writing task
 - longer Blender/AI/hardware discussion
 - mixed comprehension + summary task
+- contextual reuse of already-learned words/phrases in a new domain
 
 ---
 
@@ -152,20 +190,22 @@ Goal: measure listening comprehension before overfitting the plan to CET written
 - Short spoken explanation about an AI/Agent or debugging scenario.
 - First pass: gist only, no transcript.
 - Second pass: details and key phrases.
+- Teach 3–5 high-value words/chunks from the material with contextual examples.
 - Give a short spoken or written summary.
-- End with one Chinese -> English Agent instruction.
+- End with one Chinese -> English Agent instruction using one or more of the new items.
 
 Measure:
 - gist comprehension
 - detail retention
 - dependence on transcript/subtitles
-- ability to reuse heard phrases
+- ability to reuse heard language
 
 ### Session 2 — Diagnostic: technical instruction writing
 Goal: measure Chinese -> English production.
 
-- Convert 4–6 realistic Chinese instructions into English.
+- Convert realistic Chinese instructions into English within the activity budget.
 - Include sequencing, constraints, acceptance criteria, and exceptions.
+- Extract useful words/chunks/sentence patterns from the learner's needs or errors.
 - Identify repeated issues in articles, tense, word choice, sentence structure, or technical collocation.
 - Include a short read-aloud or spoken explanation if voice is available.
 
@@ -173,7 +213,8 @@ Goal: measure Chinese -> English production.
 Goal: measure spontaneous explanation and repair strategies.
 
 - Explain a familiar problem such as IK, retargeting, temporal consistency, frame interpolation, or seamless looping.
-- Ask follow-up questions that require clarification, correction, and comparison.
+- Ask follow-up questions within the stage cap that require clarification, correction, comparison, and uncertainty.
+- Teach useful technical chunks or sentence patterns that improve the explanation.
 - Add one short listening segment in the same domain.
 
 ### Session 4 — Agent debugging language
@@ -214,6 +255,7 @@ Output: clarification/disagreement role-play.
 ### Session 7 — Integrated review + hardware/engineering
 - Review all due items.
 - Short listening or reading input from hardware/gaming or vehicle engineering.
+- Learn/review several contextual words, phrases, or sentence patterns from that material.
 - Use comparison, quantities, tolerances, and cause/effect language.
 - Reassess next-week balance from actual performance.
 
@@ -230,6 +272,7 @@ Adjust each skill separately:
 - If listening collapses without subtitles, reduce speech density/speed and train chunk recognition before increasing difficulty.
 - If writing is understandable but unnatural, focus on collocations and concise technical phrasing rather than basic grammar drills.
 - If speaking is slow but accurate, train retrieval and repair strategies before adding harder grammar.
+- If isolated words are recognized but cannot be produced, shift toward chunks, sentence patterns, and contextual recall.
 - Do not return to elementary textbook progression unless recurring errors show a genuine foundation gap.
 
 ## Content balance
@@ -240,7 +283,8 @@ Across most weeks:
 - listening should appear in most full sessions,
 - technical writing/prompting should appear several times per week,
 - speaking should appear regularly in evening/weekend voice-capable sessions,
-- reading supports all tracks but does not need to dominate dedicated lesson time.
+- reading supports all tracks but does not need to dominate dedicated lesson time,
+- contextual vocabulary/phrase/sentence learning should appear in virtually every completed session.
 
 Topic rotation across roughly 7 completed sessions:
 - 2–3: AI/Agent/coding/GitHub
@@ -253,7 +297,7 @@ The review queue overrides this mix when necessary.
 ## Scheduled-task behavior
 
 Weekday scheduled lesson: after 20:00, target around 20:30.
-Weekend scheduled lesson: around 12:00.
+Weekend/actual rest-day scheduled lesson: around 12:00.
 
 The task should open with four options:
 
@@ -268,7 +312,7 @@ If postponed, preserve the queue and do not record a failed session. The learner
 
 ### Scheduled-task prompt
 
-Open the GitHub repository `NiHaiMa123/english-learning`. Read `AGENTS.md`, `profile.md`, state files, `curriculum/roadmap.md`, and recent session logs. Start today's interactive English lesson according to repository rules. First offer Normal ~30 min / Quick ~10 min / Postpone / Extra time. Do not dump the lesson at once. Use actual audio/voice for listening only when the current interface supports it; otherwise substitute text work and keep listening items pending. After a completed session, update the repository state and session log.
+Open the GitHub repository `NiHaiMa123/english-learning`. Read `AGENTS.md`, `profile.md`, state files, `curriculum/roadmap.md`, and recent session logs. Start today's interactive English lesson according to repository rules. First offer Normal ~30 min / Quick ~10 min / Postpone / Extra time. Do not dump the lesson at once. Use actual audio/voice for listening only when the current interface supports it; otherwise substitute text work and keep listening items pending. Ensure the session includes a small contextual set of useful words/phrases/sentence patterns and at least one chance to reuse them. After a completed session, update the repository state and session log.
 
 ## Success criteria after 4–6 weeks
 
@@ -280,4 +324,5 @@ Look for measurable improvement in:
 - explaining familiar technical problems more spontaneously,
 - using clarification and repair strategies in conversation,
 - reading technical English without translating every sentence,
-- retrieving learned chunks actively rather than merely recognizing them.
+- retrieving learned words, chunks, collocations, and sentence patterns actively rather than merely recognizing them,
+- reusing learned language naturally in new contexts instead of only remembering the original example.
