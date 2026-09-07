@@ -39,6 +39,104 @@ After Phase 0, update `profile.md` with observed strengths and weaknesses for ea
 
 ---
 
+## Mandatory language-learning layer
+
+Every normal lesson should deliberately teach a small set of reusable language items from the day's context. Do not rely on comprehension questions alone.
+
+### Item types
+
+Use a mix of these four types:
+
+1. **Word** — a high-value individual word whose meaning or usage is not yet stable.
+2. **Phrase / collocation / chunk** — preferred whenever a reusable multi-word unit exists, such as `narrow down the cause` or `meet the acceptance criteria`.
+3. **Sentence pattern** — a reusable grammatical/discourse frame, such as `The issue is not X; it's Y.` or `This seems inconsistent with ...`.
+4. **Domain expression** — a technical expression that is useful as a unit, such as `frame-time spike`, `weight painting`, or `maintain backward compatibility`.
+
+Phrases/chunks and sentence patterns are generally more valuable than isolated vocabulary because they can be retrieved directly during speaking and writing.
+
+### Quantity limits
+
+- Normal ~30 minute lesson: about **4–7 new language items total**.
+- Quick/manual ~10–15 minute lesson: about **2–4 new language items total**.
+- Extra-time sessions may add more only when the learner is handling the current set easily; do not turn extra time into a large vocabulary dump.
+
+### Context requirement
+
+Never teach a new item as only `English = Chinese meaning`.
+
+For each new item, normally provide:
+
+- the meaning that matters in the current context,
+- its grammatical role or common collocation when useful,
+- **at least one natural contextual example**,
+- a brief contrast/common mistake only if it prevents likely misuse,
+- one opportunity for the learner to recognize, retrieve, or use it.
+
+Examples should preferably come from the learner's real domains or a realistic everyday situation.
+
+Example:
+
+- `constraint` — 限制条件 / 约束
+- useful chunk: `under this constraint`, `hardware constraint`
+- Agent context: `Do not change the production code; treat that as a hard constraint.`
+- Blender context: `VRAM is the main constraint when rendering this scene at 4K.`
+
+For a sentence pattern:
+
+- pattern: `The issue is not X; it's Y.`
+- Agent context: `The issue is not model capability; it's the way the harness provides context.`
+- Hardware context: `The issue is not average FPS; it's the frame-time spikes.`
+
+The purpose of examples is to make the learner understand **when and how the expression is actually used**, not merely to decorate a definition.
+
+### Source-from-context rule
+
+Whenever practical, select new language from something the learner just:
+
+- heard in a listening item,
+- read in a short passage,
+- tried to express in English,
+- misunderstood,
+- or needed in a realistic task.
+
+This creates a loop:
+
+`context -> notice useful language -> understand it -> reuse it -> review it later in a different context`
+
+Do not introduce unrelated vocabulary merely to fill a quota.
+
+### Active-use rule
+
+An item is not considered learned because the learner read its explanation once.
+
+Use at least one of:
+
+- Chinese -> English recall,
+- fill the item into a new sentence,
+- choose between two near-synonyms and explain the choice,
+- paraphrase using the target phrase,
+- write a new Agent/Blender/hardware/everyday sentence with it,
+- recognize it from audio,
+- say it naturally in Voice.
+
+For a batch of 4–7 items, not every item needs a separate exercise immediately. Combine several naturally in one output task to avoid bloating the lesson.
+
+### Contextual review rule
+
+Spaced review should change the surrounding sentence or scenario. Avoid reviewing only by repeating the exact original example.
+
+Good progression:
+
+1. understand `root cause` in a debugging passage,
+2. recall it next day from Chinese,
+3. use it in a different Blender or pipeline problem,
+4. recognize it in spoken English,
+5. use it spontaneously in a later explanation.
+
+Move an item toward mastery only when the learner can retrieve or interpret it in context, not merely recognize a memorized translation.
+
+---
+
 ## Track A — Agent / coding / GitHub English
 
 Core abilities:
@@ -251,6 +349,7 @@ Do not force a rigid weekday syllabus. Across roughly 7 completed sessions:
 - Technical writing/prompting should appear in several sessions.
 - Speaking should appear regularly in evening/weekend voice-capable sessions.
 - Reading should support all tracks and can dominate daytime text-only sessions.
+- Contextual word/phrase/sentence learning should appear in virtually every completed lesson, but remain small enough that the lesson still includes real comprehension and output.
 
 Topic rotation guideline:
 - 2–3 sessions: Track A
