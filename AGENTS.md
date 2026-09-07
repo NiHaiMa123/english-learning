@@ -90,6 +90,33 @@ Prioritize:
 
 If the current interface cannot actually provide or assess audio, do not claim that listening practice occurred. Substitute text work for the current session and leave listening-specific work pending for a later voice-capable session.
 
+## Voice pronunciation protocol
+
+When a lesson enters Voice mode, pronunciation should be handled in-session rather than inferred later from transcript text.
+
+Voice should:
+
+1. Let the learner finish the utterance unless the pronunciation error prevents understanding or is the explicit target of the drill.
+2. Correct high-value pronunciation errors immediately or at the next natural pause.
+3. Prefer concise correction: identify the target word/phrase, model it, explain the key sound/stress/rhythm issue briefly, and ask the learner to repeat it.
+4. Confirm whether the repeated attempt is improved enough to continue; avoid endless drilling unless the learner wants it.
+5. Distinguish pronunciation problems from vocabulary/grammar problems.
+6. Surface notable pronunciation findings explicitly in the spoken/text transcript so the text model can use them after Voice ends.
+
+Examples of useful transcript-visible feedback:
+- `Pronunciation: stress in "constraint" was misplaced; corrected after one repetition.`
+- `Pronunciation: /θ/ in "throughput" remains unstable; review next session.`
+- `Speaking rhythm: sentence stress was too even; improved after chunking the sentence.`
+
+After Voice ends, the text model should treat these explicit Voice observations as the primary evidence for pronunciation. Do not infer a pronunciation error merely because the transcript contains a different spelling or wording from what the learner probably said.
+
+The text model should then:
+- summarize recurring pronunciation patterns,
+- decide which items deserve spaced review,
+- add unresolved pronunciation targets to `state/review_queue.md`,
+- record resolved or improving items in the session log,
+- use future Voice sessions to re-test them in new sentences rather than only asking for isolated repetition.
+
 ## Difficulty
 
 The learner reported CET4 568 and CET6 389 (written exams). Treat this as evidence of substantial school-English exposure but not as proof of active production ability.
@@ -124,7 +151,7 @@ Adjust based on performance:
 - Failed / could not recall: return soon, usually next session.
 - Recalled with strong hints: 1–3 days.
 - Recalled independently but slowly: 3–7 days.
-- Used naturally in a new context: extend the interval.
+- Used naturally in new context: extend the interval.
 
 Items should leave the active review queue only after the learner can produce or correctly interpret them in context, not merely recognize a definition once.
 
@@ -141,6 +168,7 @@ Create or update `sessions/YYYY-MM-DD.md` with:
 - Important learner errors
 - Listening observations, if audio was actually used
 - Speaking observations, if voice was actually used
+- Pronunciation observations explicitly reported during Voice, if any
 - What the learner produced successfully
 - Items needing review
 - Suggested next focus
