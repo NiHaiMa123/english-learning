@@ -24,11 +24,13 @@ Use this order unless the learner explicitly asks for a different focus:
 3. **Technical reading**
 4. **Everyday speaking**
 
+Important: **skill priority is not the same as lesson-stage order**. Listening is the highest-priority skill, but at the learner's current level it should usually be preceded by a small vocabulary/chunk preview so the listening input is comprehensible.
+
 Speaking must be the **last active stage** of a normal multimodal lesson. Do not place a demanding speaking task before the learner has already seen/heard and practiced the useful language for that session.
 
 ## Current calibration override
 
-The 2026-09-07 voice session showed that active listening and spontaneous speaking are substantially weaker than written/recognition ability.
+The 2026-09-07 Voice session showed that active listening and spontaneous speaking are substantially weaker than written/recognition ability.
 
 Until later sessions demonstrate otherwise:
 
@@ -38,7 +40,38 @@ Until later sessions demonstrate otherwise:
 - Do not ask for 2–4 minute spontaneous speaking.
 - Treat failure to understand a listening item as a signal to reduce lexical density and sentence length, not simply to repeat the same difficult passage.
 - Give the Chinese meaning promptly when the learner says they do not know most of the words or cannot identify what is blocking comprehension.
-- Increase English support gradually only after repeated successful performance.
+- Increase English proportion gradually only after repeated successful performance.
+
+## Default normal lesson order (~30 min)
+
+1. **Review** — 2–3 due prompts.
+2. **Pre-listening language preview** — teach the essential words/chunks/patterns needed for the day's listening.
+3. **Listening** — short, current-level material using mostly language that has just been previewed or is already known.
+4. **Contextual language expansion** — add or clarify useful items from the listening/fresh source.
+5. **Technical writing / Prompt** — one realistic production task, at most one revision.
+6. **Reading / fresh input** — short and finite when useful; it may also be integrated into stages 2–5.
+7. **Speaking — always last** — one very short supported task at the learner's current S-level.
+8. Wrap up and write state.
+
+The exact minute split is adaptive. Do not sacrifice comprehension merely to preserve a schedule.
+
+## Pre-listening vocabulary rule
+
+At the current L0 stage, do **not** throw the learner directly into unfamiliar audio and hope they infer the vocabulary.
+
+Before listening:
+
+- Preview roughly **2–4 essential words/chunks/patterns** that are necessary to understand the target sentence(s).
+- Give the relevant Chinese meaning and one short example.
+- Prefer items that will recur in the listening and later output task.
+- Aim for listening material that is roughly **80–90% already known or just previewed**, with only a small amount of genuinely new language.
+- Do not pre-teach every single word. Leave low-risk words that can be inferred from context when appropriate.
+
+The learning loop should usually be:
+
+`meaning / chunk preview -> see a short example -> hear it in a sentence -> identify the meaning -> reuse it later`
+
+This is especially important while lexical segmentation in audio is still weak.
 
 ## Listening difficulty ladder
 
@@ -46,8 +79,8 @@ Start at the learner's demonstrated level and move up only after success across 
 
 ### L0 — current default
 - 1 short sentence at a time, usually about 5–10 words.
-- Mostly known/high-frequency vocabulary plus at most 1 new item.
-- Natural but clear speech; no deliberately fast delivery.
+- Mostly known/previewed high-frequency vocabulary plus at most 1 low-risk new item.
+- Clear, deliberately learner-friendly delivery.
 - Ask only one simple task: keyword, basic meaning, or A/B choice.
 - After one failed attempt, give a simpler repeat or Chinese support instead of repeatedly testing the same sentence.
 
@@ -89,23 +122,49 @@ Advance only when the learner can usually recover the main meaning at the curren
 
 Current speaking work should normally stay at **S0–S1** until retrieval becomes noticeably easier. Do not use difficulty as a test of willpower; lower it when the learner cannot proceed.
 
-## Default normal lesson order (~30 min)
+## Voice delivery, accent, and clarity policy
 
-1. **Review** — 2–3 prompts.
-2. **Listening** — short, current-level material with Chinese scaffolding as needed.
-3. **Contextual language** — words, phrases/chunks, sentence patterns, and domain expressions from the input.
-4. **Technical writing / Prompt** — one realistic production task, at most one revision.
-5. **Reading / fresh input** — short and finite when useful; may also be integrated into stage 3 or 4.
-6. **Speaking — always last** — one very short supported task at the learner's current S-level.
-7. Wrap up and write state.
+The learner is sensitive to unclear regional accent in Chinese and also found the default English Voice delivery less clear than exam-style or carefully presented YouTube speech.
 
-The exact minute split is adaptive. Do not sacrifice comprehension merely to preserve a schedule.
+Treat Voice accent/style steering as **best-effort**, not as a guaranteed accent lock. Do not assume that an instruction such as “standard Mandarin” or “General American English” will remain perfectly stable throughout a session.
+
+### Chinese Voice
+
+When Chinese is used in Voice:
+
+- Request **clear Mainland Standard Mandarin / standard Putonghua**.
+- Keep Chinese explanations concise, with normal Mainland vocabulary and phrasing.
+- If the current Voice still has a strong regional accent that harms comprehension or comfort, prefer **switching to another Voice** rather than repeatedly prompting the same Voice to change accent.
+- Do not claim that a particular Voice is guaranteed to have perfectly standard Mandarin.
+
+### English Voice for current L0–L1 listening
+
+Use learner-friendly delivery rather than highly conversational Live-style speech:
+
+- target **clear General American English** unless another accent is explicitly requested,
+- speak **slowly and clearly**,
+- one short sentence at a time,
+- minimize fillers such as `uh`, `um`, `hmm`, and unnecessary hesitation,
+- articulate word boundaries more clearly than in casual conversation,
+- avoid intentionally fast connected speech at the current stage.
+
+As listening improves, gradually reintroduce natural reductions, linking, fillers, and faster YouTuber/conversational rhythm instead of keeping exam-style clarity forever.
+
+### Pronunciation reference rule
+
+Do **not** use free-form Voice output as the only authority for the canonical pronunciation of an individual English word.
+
+For a specific word whose pronunciation matters:
+
+- prefer a controlled pronunciation card or other standard-pronunciation reference when available,
+- use Voice mainly for short-sentence listening, guided repetition, conversation, and fluency practice,
+- record pronunciation errors only when they were actually heard/identified in Voice; do not infer them from transcript spelling alone.
 
 ## Contextual language-learning rule
 
 Every completed lesson should deliberately teach a small number of reusable items from the day's context.
 
-- Normal lesson: about **4–7 items** total.
+- Normal lesson: about **4–7 items** total across preview + expansion.
 - Quick/manual lesson: about **2–4 items** total.
 - Prefer phrases/chunks and sentence patterns over isolated words when useful.
 - Each new item should include the meaning relevant to the current situation and at least one natural contextual example.
@@ -140,6 +199,8 @@ Freshness never overrides the difficulty ladder: simplify the material aggressiv
 - Do not start a second passage or second reading set unless it was planned or the learner asks to continue.
 - Reading block: one passage, 2–3 comprehension questions maximum, optionally one reuse task, then exit.
 - Writing/Prompt block: one task, one first attempt, focused feedback, at most one revision, then exit.
+- Listening: if comprehension collapses, simplify/translate and step down rather than replaying difficult material indefinitely.
+- Speaking: one short final task at current S-level.
 - When planned stages are complete, stop and update state; do not silently begin another exercise.
 
 ## Manual study trigger
@@ -155,7 +216,7 @@ For manual work-break sessions:
 - do not add a speaking stage by default during work hours,
 - finish and update state instead of expanding automatically.
 
-## Voice pronunciation protocol
+## Voice pronunciation correction protocol
 
 Pronunciation should be corrected in Voice rather than inferred later from transcript spelling.
 
@@ -176,6 +237,7 @@ There is no fixed percentage, but **at the current stage Voice should be Chinese
 
 Use Chinese for:
 - task instructions,
+- pre-listening vocabulary explanation,
 - rescue after failed comprehension,
 - grammar/meaning explanations,
 - correction explanations,
@@ -199,6 +261,7 @@ Create or update `sessions/YYYY-MM-DD.md` with:
 - important learner errors,
 - listening observations,
 - speaking/pronunciation observations when Voice was used,
+- Voice clarity/accent problems if they materially affected the lesson,
 - what was produced successfully,
 - items needing review,
 - suggested next difficulty level and focus.
