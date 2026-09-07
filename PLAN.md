@@ -74,6 +74,48 @@ Then:
 
 If audio/voice is unavailable, convert this block to writing/reading and leave audio-specific targets pending.
 
+## Finite-stage execution rules
+
+The time blocks above are not invitations to continue one exercise until it feels complete. Each block has a hard activity budget.
+
+Default caps for a full lesson:
+
+- review: 2–3 prompts total,
+- listening: one spoken item, at most two passes, at most 3 comprehension prompts,
+- new language: 4–7 items presented compactly,
+- writing/Prompt: one task, one first attempt, focused feedback, at most one revision,
+- speaking: one short segment with focused correction,
+- then wrap up.
+
+A single activity should normally receive no more than 2 feedback/retry cycles. Unresolved errors go into the review queue instead of extending the current activity indefinitely.
+
+### Reading-comprehension exit condition
+
+A reading block is complete after:
+
+1. one passage/snippet,
+2. 2–3 comprehension questions total,
+3. concise correction,
+4. optionally one short reuse/output task.
+
+Then the lesson **must leave the reading block**. Do not generate more comprehension questions, a second passage, or another reading set unless it was explicitly planned or the learner asks to continue reading.
+
+Poor performance is evidence for future review, not a reason to trap the learner in the same block.
+
+### Quick/manual session exit condition
+
+A ~10–15 minute `摸鱼学习` session should normally contain at most 3 stages:
+
+1. up to 2 review prompts,
+2. one short input block with at most 2 comprehension questions **or** one compact explanation,
+3. one active output task with at most one revision.
+
+Then end the session, summarize briefly, and update state. If the learner says they have more time, expand deliberately; do not expand automatically.
+
+### Progress marker
+
+A compact marker such as `2/4 · Reading` or `3/4 · Prompt` may be shown so the learner can see that the lesson is progressing toward an end.
+
 ---
 
 ## Quick session (~10 min)
