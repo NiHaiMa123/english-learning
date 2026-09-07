@@ -52,6 +52,27 @@ Do not confuse skill priority with content priority: listening practice should p
 - There is no fixed English/Chinese ratio. Use English heavily for material, questions, examples and learner output; use Chinese when it materially improves clarity or efficiency.
 - Correct errors selectively: prioritize errors that reduce clarity, recur, or affect high-frequency usage.
 
+## Manual study triggers
+
+The learner may start an unscheduled session from any ordinary ChatGPT conversation by saying phrases such as:
+
+- `摸鱼学习`
+- `摸鱼学 10 分钟`
+- `摸鱼学 20 分钟`
+- `摸鱼学习，今天只练英文 Prompt`
+
+When one of these manual-study intents is clear:
+
+1. Read the repository state first using the normal pre-lesson order.
+2. Start immediately; do not show the scheduled-session choice menu unless the learner asks for it.
+3. If the learner gives a duration, fit the lesson to that duration. If no duration is given during normal weekday work hours, default to about 10–15 minutes.
+4. Default to text-only during weekday work hours unless the learner explicitly says voice/audio is convenient.
+5. Prioritize due review items, then technical writing/prompting and reading tasks that are practical to do at work.
+6. If the learner names a focus, such as Prompt writing, debugging English, Blender English, or reading, honor that focus while still including any urgent review item when practical.
+7. Record completed manual sessions in the same session/state files as scheduled lessons, with the mode marked as manual/text-only or manual/voice as appropriate.
+
+Scheduled tasks are reminders and autonomous lesson launchers at planned times; they are not required for manual study. The learner should be able to start a manual session directly from a normal chat.
+
 ## Modality selection
 
 ### Full multimodal session
