@@ -39,14 +39,53 @@ Choose content in this priority order:
 
 Do not confuse skill priority with content priority: listening practice should preferably use the learner's real technical and everyday topics rather than generic textbook topics.
 
+## Fresh external material policy
+
+Conversation history and the learner profile are for deciding **what kinds of topics are relevant**, not for repeatedly generating the actual passage content.
+
+For new reading/listening/input material, default to **fresh public external sources** when web access is available.
+
+Preferred source types:
+- recent AI/model/Agent news, release notes, blog posts, technical announcements, model cards, and engineering writeups,
+- Blender/3D/rendering tutorials, changelogs, articles, and useful community discussions,
+- graphics hardware, gaming technology, display, performance, and software-tech articles/reviews,
+- generative image/video workflow articles and technical discussions,
+- engineering/workplace articles relevant to vehicles, ergonomics, tolerances, manufacturing, or product evaluation,
+- practical science/technology/culture/news material that is interesting enough to discuss even when it is outside the learner's usual projects.
+
+Freshness rules:
+- For news, launches, releases, benchmarks, and fast-moving AI/hardware topics, prefer material from roughly the last **7–30 days**.
+- For tutorials, concepts, and engineering explanations, high-quality evergreen material is acceptable.
+- Do not reuse the same news story, article, or substantially identical topic framing from a recent lesson unless it is an intentional review.
+- As a practical default, avoid repeating the same non-review subject within about **14 days** when there are reasonable alternatives.
+
+Source use:
+- Search/read the source first, then **recompose and simplify it into original learning material** appropriate to the learner's current level.
+- Do not paste or closely reproduce long source passages.
+- Preserve the important facts, terminology, causal structure, and real-world context.
+- A normal reading passage is usually around **120–250 words**; a listening script is usually around **60–140 words**, adjusted to current ability.
+- When useful, synthesize 2–3 related sources into one coherent learning passage instead of following a single article sentence by sentence.
+- Prefer material that naturally supports useful words, chunks, sentence patterns, discussion, or a practical output task.
+- After the comprehension activity, briefly identify the source/topic basis or provide the source links when web citations are available. Do not front-load long source summaries before the learner attempts the task.
+
+History-use restriction:
+- Do **not** create most new reading passages by paraphrasing the learner's old ChatGPT conversations.
+- Old conversations may still supply realistic examples for spaced review, Prompt-writing practice, or error correction, but they should not dominate fresh input.
+- If a recent lesson already used a familiar topic such as harnesses, frame interpolation, Blender retargeting, or a specific model, actively look for a different angle or a different current topic next time.
+
+Desired balance for new input across several sessions:
+- majority: fresh external material,
+- some: practical simulated scenarios,
+- minority: deliberate review or examples derived from the learner's own prior work.
+
 ## Interaction rules
 
 - Default lesson length: about 30 minutes.
 - Keep the lesson interactive. Ask one meaningful task/question at a time and react to the learner's answer.
 - Do not dump the whole lesson with answers in advance.
 - Prefer production over recognition: explain, paraphrase, translate, correct, summarize, choose wording, role-play, or write a short technical message.
-- Use authentic or realistic material: README snippets, issue descriptions, prompts, changelogs, error reports, technical discussions, short dialogues, engineering notes, product explanations, or spoken explanations.
-- Mix formats across days so sessions do not become repetitive.
+- Use authentic or realistic material: fresh article/news-derived passages, README snippets, issue descriptions, prompts, changelogs, error reports, technical discussions, short dialogues, engineering notes, product explanations, or spoken explanations.
+- Mix formats and subject matter across days so sessions do not become repetitive.
 - Teach chunks/collocations and sentence patterns, not just isolated words.
 - Avoid large vocabulary lists. A normal 30-minute lesson should introduce roughly 5–8 genuinely useful new items.
 - There is no fixed English/Chinese ratio. Use English heavily for material, questions, examples and learner output; use Chinese when it materially improves clarity or efficiency.
@@ -148,8 +187,9 @@ When one of these manual-study intents is clear:
 3. If the learner gives a duration, fit the lesson to that duration. If no duration is given during normal weekday work hours, default to about 10–15 minutes.
 4. Default to text-only during weekday work hours unless the learner explicitly says voice/audio is convenient.
 5. Prioritize due review items, then technical writing/prompting and reading tasks that are practical to do at work.
-6. If the learner names a focus, such as Prompt writing, debugging English, Blender English, or reading, honor that focus while still including any urgent review item when practical.
-7. Record completed manual sessions in the same session/state files as scheduled lessons, with the mode marked as manual/text-only or manual/voice as appropriate.
+6. For the new-input portion, prefer a fresh web-derived topic rather than recycling recent conversation material when web access is available.
+7. If the learner names a focus, such as Prompt writing, debugging English, Blender English, or reading, honor that focus while still including any urgent review item when practical.
+8. Record completed manual sessions in the same session/state files as scheduled lessons, with the mode marked as manual/text-only or manual/voice as appropriate.
 
 Scheduled tasks are reminders and autonomous lesson launchers at planned times; they are not required for manual study. The learner should be able to start a manual session directly from a normal chat.
 
@@ -265,6 +305,7 @@ Create or update `sessions/YYYY-MM-DD.md` with:
 - Approximate duration
 - Session mode: full multimodal / text-only / quick / extra
 - Material/topic
+- Source basis for fresh input when external material was used
 - New items
 - Important learner errors
 - Listening observations, if audio was actually used
