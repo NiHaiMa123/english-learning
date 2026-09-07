@@ -60,7 +60,9 @@ Observed in the first Voice session:
 - Repeating the same difficult content did not solve the problem.
 - Chinese explanation and a much shorter English summary made the meaning accessible.
 
-Current default: start at **L0** — one short sentence at a time (about 5–10 words), mostly familiar vocabulary, at most one new item, with Chinese rescue quickly available.
+Current default: start at **L0** — one short sentence at a time (about 5–10 words), mostly familiar or just-previewed vocabulary, at most one low-risk new item, with Chinese rescue quickly available.
+
+A small vocabulary/chunk preview should usually come **before** listening. Listening is still the highest-priority skill, but it should not be the first difficult stage.
 
 ### Speaking
 
@@ -87,12 +89,44 @@ Observed:
 
 Not yet sufficiently calibrated in this lesson. Keep reading difficulty moderate and finite; use it as support rather than assuming it matches CET written scores exactly.
 
+## Voice preferences and constraints
+
+### Chinese Voice
+
+The learner is sensitive to Chinese regional accent in Voice. A noticeable non-mainland-standard accent reduced comfort and sometimes made speech harder to understand.
+
+Preferred delivery:
+- **clear Mainland Standard Mandarin / standard Putonghua**,
+- concise Chinese explanations,
+- natural Mainland vocabulary and phrasing.
+
+Operational rule:
+- treat accent steering as best-effort rather than guaranteed,
+- if a Voice continues to sound strongly regional and affects comprehension, prefer switching Voice rather than repeatedly prompting the same Voice to change accent.
+
+### English Voice
+
+The learner currently finds ordinary Live-style English less clear than exam listening or carefully presented YouTube speech.
+
+For L0–L1 listening, preferred delivery is:
+- **clear General American English**,
+- slower-than-casual speech,
+- clear articulation and word boundaries,
+- one short sentence at a time,
+- minimal fillers/hesitation such as `uh`, `um`, `hmm`,
+- no intentionally fast connected speech yet.
+
+As listening improves, gradually reintroduce more natural linking, reductions, fillers, and faster conversational rhythm.
+
+For individual-word pronunciation, do not rely on free-form Voice as the only canonical reference; prefer a controlled pronunciation card or another standard-pronunciation reference when available.
+
 ## Lesson language policy
 
 At the current stage, **Voice should be Chinese-led**.
 
 Use Chinese by default for:
 - task instructions,
+- pre-listening vocabulary/chunk explanation,
 - explaining why an answer is wrong,
 - vocabulary and grammar explanations,
 - rescue when the learner says they cannot follow,
@@ -110,13 +144,14 @@ Do not maintain a high-English-ratio conversation if the learner is visibly unab
 
 Listening remains the highest-priority skill, but difficulty must be lowered enough to permit successful practice.
 
-Preferred current listening formats:
-- one short sentence,
-- keyword recognition,
-- basic meaning choice,
-- very short dictation only when vocabulary is known,
-- Chinese explanation after one failed attempt,
-- then one simplified repeat.
+Preferred current listening flow:
+1. preview 2–4 essential words/chunks,
+2. hear one short sentence,
+3. identify a keyword/basic meaning,
+4. give Chinese support after one failed attempt,
+5. optionally hear one simplified repeat.
+
+Aim for roughly **80–90% known or just-previewed language** in L0 listening material.
 
 Preferred current speaking formats:
 - repeat a useful chunk,
@@ -125,7 +160,7 @@ Preferred current speaking formats:
 - produce one short sentence from Chinese,
 - read/reuse a sentence learned earlier in the same session.
 
-Speaking should come **after** listening, contextual language work, writing/prompting, and any reading used that day.
+Speaking should come **after** vocabulary preview, listening, contextual language work, writing/prompting, and any reading used that day.
 
 ## Current review targets
 
