@@ -15,6 +15,32 @@ Current skill priority:
 
 The content itself should remain strongly tied to the learner's real domains: AI/Agents/coding/GitHub, Blender/3D, generative media, PC hardware/gaming, engineering/workplace English, plus practical everyday conversation.
 
+## Fresh-input strategy
+
+Do not use conversation history as the default source of new reading passages. Use history mainly to infer interests, high-frequency domains, known vocabulary, and review targets.
+
+For most new input, when web access is available:
+
+1. Search for a fresh relevant article, announcement, tutorial, technical post, review, or news item.
+2. Prefer recent material (roughly 7–30 days) for fast-moving AI, models, hardware, games, releases, and benchmarks.
+3. Use strong evergreen tutorials/articles when the subject is conceptual rather than news-driven.
+4. Recompose the source into a concise original English learning passage at the learner's current level rather than copying the article.
+5. Preserve the real facts and useful terminology.
+6. When useful, synthesize several related sources into one short coherent passage.
+7. Avoid substantially repeating a recent non-review topic; aim for a different subject or angle for about 14 days when practical.
+
+Good fresh-input categories include:
+- new AI models, Agent tools, coding systems, benchmarks, releases, and workflow ideas,
+- Blender/3D/rendering news, tutorials, workflows, and community techniques,
+- image/video-generation tools and technical developments,
+- GPU/display/game rendering, latency, frame generation, upscaling, and performance topics,
+- engineering, automotive, ergonomics, manufacturing, tolerance, and product-evaluation articles,
+- occasional broader science/technology/culture/news topics to prevent the curriculum from becoming too narrow.
+
+The goal is **interest-guided novelty**: familiar domains, unfamiliar information.
+
+For source-derived material, record the source/topic basis in the session log. When citations/links are available in the active ChatGPT environment, show them briefly after the comprehension activity rather than before it.
+
 ## Default full lesson (~30 min)
 
 ### 1. Retrieval review — 5 min
@@ -39,7 +65,7 @@ Rotate formats:
 - listen -> summarize in English or Chinese
 - listen -> answer a realistic follow-up question
 
-Use technical and practical everyday topics rather than generic exam listening whenever possible.
+Prefer a fresh externally sourced topic when practical. Use technical and practical everyday topics rather than generic exam listening whenever possible.
 
 ### 3. Contextual language learning — 5–7 min
 Select about **4–7 genuinely useful new language items** from the day's listening, reading, learner errors, or output needs.
@@ -59,7 +85,7 @@ Each item should normally include:
 - a brief contrast/common mistake only when useful,
 - one chance to retrieve or use it.
 
-Examples should be tied to realistic contexts such as AI/Agent instructions, GitHub/debugging, Blender/3D, hardware/gaming, engineering, or ordinary conversation.
+Examples should be tied to realistic contexts such as AI/Agent instructions, GitHub/debugging, Blender/3D, hardware/gaming, engineering, ordinary conversation, or the fresh article/news context used that day.
 
 Do not teach items only as dictionary pairs such as `constraint = 约束`. Prefer something like:
 
@@ -81,11 +107,12 @@ Rotate realistic outputs:
 - rewrite a Chinese Agent instruction in English
 - write constraints and acceptance criteria
 - explain a bug or workflow failure
-- summarize a technical point
+- summarize a technical point or fresh article
 - critique generated image/video output
 - describe a Blender pose/rendering problem
 - compare hardware options
 - translate an engineering observation
+- give a short opinion on the day's new topic
 - use 2–4 of today's new words/phrases/patterns naturally in one task
 
 ### 5. Speaking + wrap-up — 4–5 min
@@ -129,6 +156,12 @@ Then the lesson **must leave the reading block**. Do not generate more comprehen
 
 Poor performance is evidence for future review, not a reason to trap the learner in the same block.
 
+### Freshness exit condition
+
+Do not keep returning to the same familiar historical subject simply because it is easy to generate examples for. Once a subject has recently been used as new input, future non-review lessons should normally choose a different article, event, technique, product, or angle.
+
+Review may reuse learned language, but the **context should preferably change**.
+
 ### Language-learning exit condition
 
 A contextual language block is complete after:
@@ -144,7 +177,7 @@ Then move on. Do not expand into an open-ended vocabulary list or drill every it
 A ~10–15 minute `摸鱼学习` session should normally contain at most 3 stages:
 
 1. up to 2 review prompts,
-2. one short input/context block plus **2–4 useful words/phrases/patterns** drawn from it,
+2. one short fresh input/context block plus **2–4 useful words/phrases/patterns** drawn from it,
 3. one active output task using at least one of those items, with at most one revision.
 
 Then end the session, summarize briefly, and update state. If the learner says they have more time, expand deliberately; do not expand automatically.
@@ -160,7 +193,7 @@ A compact marker such as `2/4 · Context & phrases` or `3/4 · Prompt` may be sh
 Designed for a busy day or daytime work break.
 
 - 2–3 min: due review
-- 3–4 min: one short realistic input/context + 2–4 language items
+- 3–4 min: one short fresh realistic input/context + 2–4 language items
 - 3–4 min: one active output task that reuses at least one new item
 
 During weekday work hours, default to text-only reading/writing unless the learner explicitly requests voice/audio.
@@ -174,7 +207,7 @@ Add one substantial activity rather than a large vocabulary dump:
 - shadowing / repeat-after-hearing
 - technical video-style explanation
 - realistic GitHub/Agent writing task
-- longer Blender/AI/hardware discussion
+- longer discussion of a fresh Blender/AI/hardware/article topic
 - mixed comprehension + summary task
 - contextual reuse of already-learned words/phrases in a new domain
 
@@ -187,7 +220,7 @@ This is a starting sequence, not a rigid calendar.
 ### Session 1 — Diagnostic: listening + AI/Agent English
 Goal: measure listening comprehension before overfitting the plan to CET written scores.
 
-- Short spoken explanation about an AI/Agent or debugging scenario.
+- Use a fresh or realistic spoken explanation about an AI/Agent/debugging scenario.
 - First pass: gist only, no transcript.
 - Second pass: details and key phrases.
 - Teach 3–5 high-value words/chunks from the material with contextual examples.
@@ -215,7 +248,7 @@ Goal: measure spontaneous explanation and repair strategies.
 - Explain a familiar problem such as IK, retargeting, temporal consistency, frame interpolation, or seamless looping.
 - Ask follow-up questions within the stage cap that require clarification, correction, comparison, and uncertainty.
 - Teach useful technical chunks or sentence patterns that improve the explanation.
-- Add one short listening segment in the same domain.
+- Add one short listening segment in the same domain, preferably with a new external angle rather than recycled chat history.
 
 ### Session 4 — Agent debugging language
 Focus:
@@ -254,7 +287,7 @@ Output: clarification/disagreement role-play.
 
 ### Session 7 — Integrated review + hardware/engineering
 - Review all due items.
-- Short listening or reading input from hardware/gaming or vehicle engineering.
+- Use a fresh short listening or reading input from hardware/gaming, engineering, or another relevant current topic.
 - Learn/review several contextual words, phrases, or sentence patterns from that material.
 - Use comparison, quantities, tolerances, and cause/effect language.
 - Reassess next-week balance from actual performance.
@@ -284,7 +317,8 @@ Across most weeks:
 - technical writing/prompting should appear several times per week,
 - speaking should appear regularly in evening/weekend voice-capable sessions,
 - reading supports all tracks but does not need to dominate dedicated lesson time,
-- contextual vocabulary/phrase/sentence learning should appear in virtually every completed session.
+- contextual vocabulary/phrase/sentence learning should appear in virtually every completed session,
+- most **new** reading/listening input should come from fresh external material rather than reconstructed conversation history.
 
 Topic rotation across roughly 7 completed sessions:
 - 2–3: AI/Agent/coding/GitHub
@@ -312,7 +346,7 @@ If postponed, preserve the queue and do not record a failed session. The learner
 
 ### Scheduled-task prompt
 
-Open the GitHub repository `NiHaiMa123/english-learning`. Read `AGENTS.md`, `profile.md`, state files, `curriculum/roadmap.md`, and recent session logs. Start today's interactive English lesson according to repository rules. First offer Normal ~30 min / Quick ~10 min / Postpone / Extra time. Do not dump the lesson at once. Use actual audio/voice for listening only when the current interface supports it; otherwise substitute text work and keep listening items pending. Ensure the session includes a small contextual set of useful words/phrases/sentence patterns and at least one chance to reuse them. After a completed session, update the repository state and session log.
+Open the GitHub repository `NiHaiMa123/english-learning`. Read `AGENTS.md`, `profile.md`, state files, `curriculum/roadmap.md`, and recent session logs. Start today's interactive English lesson according to repository rules. First offer Normal ~30 min / Quick ~10 min / Postpone / Extra time. Do not dump the lesson at once. For new input, prefer fresh public articles/news/tutorials/release notes and recompose them into learner-appropriate material instead of recycling conversation history. Use actual audio/voice for listening only when the current interface supports it; otherwise substitute text work and keep listening items pending. Ensure the session includes a small contextual set of useful words/phrases/sentence patterns and at least one chance to reuse them. After a completed session, update the repository state and session log.
 
 ## Success criteria after 4–6 weeks
 
@@ -325,4 +359,5 @@ Look for measurable improvement in:
 - using clarification and repair strategies in conversation,
 - reading technical English without translating every sentence,
 - retrieving learned words, chunks, collocations, and sentence patterns actively rather than merely recognizing them,
-- reusing learned language naturally in new contexts instead of only remembering the original example.
+- reusing learned language naturally in new contexts instead of only remembering the original example,
+- maintaining interest because new input regularly introduces genuinely new information.
