@@ -2,140 +2,75 @@
 
 This curriculum is adaptive rather than date-locked. Progress depends on demonstrated performance, not merely completing a lesson.
 
-Current skill priority:
+## Current priority order
 
-1. Listening comprehension
-2. Technical writing / prompting
-3. Everyday speaking
-4. Technical reading
+1. **Listening comprehension**
+2. **Technical writing / prompting**
+3. **Technical reading**
+4. **Everyday speaking**
 
-Topic choice should still favor the learner's real domains.
+Speaking remains a long-term goal, but is now deliberately placed last in the lesson sequence and in current priority because the first Voice calibration showed that spontaneous speaking is much weaker than written production.
 
-## Phase 0 — Diagnostic calibration (first 3 sessions)
+## Phase 0 — Recalibration
 
-Goal: establish the learner's practical English profile across listening, writing, speaking, and reading.
+The first Voice session on 2026-09-07 established that CET written scores substantially overstate current listening/speaking readiness.
 
-### Session A — Listening + AI/Agent explanation
-- Hear a short AI/Agent/debugging explanation without transcript first.
-- Identify gist, cause/effect, and important details.
-- Re-listen if needed and recover key chunks.
-- Give a short summary.
-- Finish with one Chinese -> English Agent instruction.
+### Listening progression
 
-Measure subtitle/transcript dependence, detail retention, and reuse of heard language.
+Start at L0:
+- one 5–10 word sentence,
+- mostly familiar vocabulary,
+- one simple comprehension task,
+- Chinese rescue after one failed attempt.
 
-### Session B — Chinese -> English technical production
-- Rewrite realistic Chinese instructions into natural English.
-- Focus on constraints, sequencing, acceptance criteria, exceptions, and debugging language.
-- Identify repeated grammar/word-choice/collocation issues.
-- Add a brief spoken explanation or read-aloud when voice is available.
+Progress through:
+- L1: 20–40 words,
+- L2: 40–80 words,
+- L3: 80–140 words of natural technical/everyday speech.
 
-### Session C — Speaking + Blender / generative-media communication
-- Explain a familiar Blender/rendering/video-generation problem in English.
-- Handle follow-up questions requiring clarification, correction, comparison, and uncertainty.
-- Add a short listening segment in the same domain.
+Do not advance because a calendar says to advance. Advance after repeated successful comprehension.
 
-After Phase 0, update `profile.md` with observed strengths and weaknesses for each skill independently.
+### Speaking progression
 
----
+Start at S0–S1:
+- repeat a chunk,
+- complete a sentence frame,
+- choose between two expressions,
+- produce one short sentence from Chinese.
+
+Later progression:
+- S2: two connected sentences,
+- S3: 20–60 second guided explanation,
+- S4: longer spontaneous conversation.
+
+Speaking is the final active stage of a normal lesson so the learner can reuse language already practiced earlier that day.
 
 ## Mandatory language-learning layer
 
-Every normal lesson should deliberately teach a small set of reusable language items from the day's context. Do not rely on comprehension questions alone.
+Every normal lesson should deliberately teach a small set of reusable language items from the day's context.
 
-### Item types
+Use a mix of:
 
-Use a mix of these four types:
+1. **Word** — a high-value individual word whose meaning or usage is unstable.
+2. **Phrase / collocation / chunk** — preferred when a reusable unit exists.
+3. **Sentence pattern** — a reusable grammatical/discourse frame.
+4. **Domain expression** — a technical expression useful as a unit.
 
-1. **Word** — a high-value individual word whose meaning or usage is not yet stable.
-2. **Phrase / collocation / chunk** — preferred whenever a reusable multi-word unit exists, such as `narrow down the cause` or `meet the acceptance criteria`.
-3. **Sentence pattern** — a reusable grammatical/discourse frame, such as `The issue is not X; it's Y.` or `This seems inconsistent with ...`.
-4. **Domain expression** — a technical expression that is useful as a unit, such as `frame-time spike`, `weight painting`, or `maintain backward compatibility`.
+Quantity:
+- Normal lesson: about **4–7 new items**.
+- Quick/manual lesson: about **2–4 new items**.
 
-Phrases/chunks and sentence patterns are generally more valuable than isolated vocabulary because they can be retrieved directly during speaking and writing.
+Each item should normally include:
+- relevant Chinese meaning,
+- useful collocation or grammar note when needed,
+- at least one natural contextual example,
+- one opportunity to recognize, retrieve, or use it.
 
-### Quantity limits
+Use the loop:
 
-- Normal ~30 minute lesson: about **4–7 new language items total**.
-- Quick/manual ~10–15 minute lesson: about **2–4 new language items total**.
-- Extra-time sessions may add more only when the learner is handling the current set easily; do not turn extra time into a large vocabulary dump.
+`context -> notice useful language -> understand it -> reuse it -> review later in a different context`
 
-### Context requirement
-
-Never teach a new item as only `English = Chinese meaning`.
-
-For each new item, normally provide:
-
-- the meaning that matters in the current context,
-- its grammatical role or common collocation when useful,
-- **at least one natural contextual example**,
-- a brief contrast/common mistake only if it prevents likely misuse,
-- one opportunity for the learner to recognize, retrieve, or use it.
-
-Examples should preferably come from the learner's real domains or a realistic everyday situation.
-
-Example:
-
-- `constraint` — 限制条件 / 约束
-- useful chunk: `under this constraint`, `hardware constraint`
-- Agent context: `Do not change the production code; treat that as a hard constraint.`
-- Blender context: `VRAM is the main constraint when rendering this scene at 4K.`
-
-For a sentence pattern:
-
-- pattern: `The issue is not X; it's Y.`
-- Agent context: `The issue is not model capability; it's the way the harness provides context.`
-- Hardware context: `The issue is not average FPS; it's the frame-time spikes.`
-
-The purpose of examples is to make the learner understand **when and how the expression is actually used**, not merely to decorate a definition.
-
-### Source-from-context rule
-
-Whenever practical, select new language from something the learner just:
-
-- heard in a listening item,
-- read in a short passage,
-- tried to express in English,
-- misunderstood,
-- or needed in a realistic task.
-
-This creates a loop:
-
-`context -> notice useful language -> understand it -> reuse it -> review it later in a different context`
-
-Do not introduce unrelated vocabulary merely to fill a quota.
-
-### Active-use rule
-
-An item is not considered learned because the learner read its explanation once.
-
-Use at least one of:
-
-- Chinese -> English recall,
-- fill the item into a new sentence,
-- choose between two near-synonyms and explain the choice,
-- paraphrase using the target phrase,
-- write a new Agent/Blender/hardware/everyday sentence with it,
-- recognize it from audio,
-- say it naturally in Voice.
-
-For a batch of 4–7 items, not every item needs a separate exercise immediately. Combine several naturally in one output task to avoid bloating the lesson.
-
-### Contextual review rule
-
-Spaced review should change the surrounding sentence or scenario. Avoid reviewing only by repeating the exact original example.
-
-Good progression:
-
-1. understand `root cause` in a debugging passage,
-2. recall it next day from Chinese,
-3. use it in a different Blender or pipeline problem,
-4. recognize it in spoken English,
-5. use it spontaneously in a later explanation.
-
-Move an item toward mastery only when the learner can retrieve or interpret it in context, not merely recognize a memorized translation.
-
----
+Do not count an item as learned because its translation was shown once.
 
 ## Track A — Agent / coding / GitHub English
 
@@ -143,20 +78,18 @@ Core abilities:
 - Give precise instructions and constraints.
 - Describe bugs and reproduction steps.
 - Discuss implementation choices and trade-offs.
-- Understand spoken and written explanations of technical workflows.
-- Read README, issue, PR, changelog, and error-log language.
+- Understand spoken/written explanations of technical workflows.
 
-High-value language themes:
-- reproduce / reproduce consistently
+High-value themes:
 - expected vs actual behavior
 - acceptance criteria
+- reproduce / reproduction steps
 - regression
 - workaround
 - edge case
 - dependency
 - deterministic / nondeterministic
 - bottleneck
-- failure mode
 - fallback
 - scope
 - constraint
@@ -165,24 +98,15 @@ High-value language themes:
 - isolate / narrow down
 - root cause
 - trade-off
-- maintain backward compatibility
+- backward compatibility
 
 Representative tasks:
-- Listen to a short debugging explanation and identify the root cause.
-- Rewrite an Agent instruction.
-- Write a concise bug report.
-- Summarize a PR or spoken implementation explanation.
-- Explain why a pipeline step failed.
-- Compare two implementation strategies.
-
----
+- understand one short debugging sentence,
+- rewrite an Agent instruction,
+- write a concise bug report,
+- explain why one pipeline step failed.
 
 ## Track B — Blender / 3D / rendering English
-
-Core abilities:
-- Understand tutorials and spoken technical explanations.
-- Describe pose, rigging, materials, camera, lighting, and animation problems.
-- Give precise instructions to an Agent or artist.
 
 High-value themes:
 - rig / armature / bone hierarchy
@@ -197,28 +121,16 @@ High-value themes:
 - shader
 - viewport vs final render
 - keyframe / interpolation
-- cloth simulation
-- collision
-- camera framing
-- focal length
-- depth of field
-- lighting setup
+- cloth simulation / collision
+- camera framing / focal length / depth of field
 
 Representative tasks:
-- Listen to and summarize a short tutorial segment.
-- Explain a rigging failure.
-- Describe a desired pose precisely.
-- Compare PBR and stylized rendering choices.
-
----
+- understand one short tutorial sentence,
+- describe a desired pose,
+- explain a rigging/rendering problem in writing first,
+- later reuse one short sentence in Voice.
 
 ## Track C — Generative image/video English
-
-Core abilities:
-- Understand English demos/reviews of image and video tools.
-- Write precise prompts.
-- Describe visual defects and temporal problems.
-- Compare generations and workflows.
 
 High-value themes:
 - prompt adherence
@@ -228,28 +140,19 @@ High-value themes:
 - flicker
 - motion continuity
 - frame interpolation
-- loop / seamless loop
+- seamless loop
 - seed
 - upscale / super-resolution
-- keyframe
-- endpoint
-- motion speed
+- keyframe / endpoint
 - visual fidelity
 
 Representative tasks:
-- Listen to a short workflow explanation and extract the sequence.
-- Turn a Chinese visual request into a concise English prompt.
-- Critique a generation.
-- Explain a frame-rate or looping problem.
-
----
+- understand short workflow statements,
+- turn a Chinese visual request into a concise English prompt,
+- critique a generation,
+- explain one frame-rate/looping issue.
 
 ## Track D — Hardware / gaming technology English
-
-Core abilities:
-- Understand review videos and community explanations.
-- Read reviews and community reports.
-- Explain performance symptoms and compare hardware/software techniques.
 
 High-value themes:
 - frame time
@@ -264,22 +167,14 @@ High-value themes:
 - 1% low
 - input lag
 - refresh rate
-- image quality trade-off
+- image-quality trade-off
 
 Representative tasks:
-- Listen to a short review segment and recover the conclusion plus evidence.
-- Summarize a hardware review.
-- Explain why average FPS can look smooth while frame-time spikes feel bad.
-- Compare native rendering, upscaling, and frame generation.
-
----
+- understand a short review statement,
+- summarize a hardware comparison,
+- explain one performance symptom.
 
 ## Track E — Engineering / workplace English
-
-Core abilities:
-- Describe physical observations, tolerances, evaluation criteria, and vehicle ergonomics.
-- Understand concise technical explanations.
-- Write concise technical notes.
 
 High-value themes:
 - gap and flush
@@ -294,33 +189,17 @@ High-value themes:
 - A-pillar
 - ergonomic / reachability
 - subjective evaluation
-- acceptance range
 - nominal value
-- upper/lower limit
+- upper / lower limit
 
 Representative tasks:
-- Translate a vehicle evaluation note.
-- Explain a dimensional requirement orally or in writing.
-- Distinguish nominal value, tolerance, and total allowed range.
-
----
+- translate one vehicle evaluation note,
+- explain a dimensional requirement,
+- distinguish nominal value, tolerance, and total allowed range.
 
 ## Track F — General practical English
 
-This track prevents technical English from becoming too narrow and supports the third-ranked goal: everyday speaking.
-
-Focus on:
-- natural conversation chunks
-- asking for clarification
-- disagreement and correction
-- uncertainty
-- comparison
-- explaining preferences
-- making plans
-- summarizing information
-- conversational repair when a word is missing
-
-Useful discourse patterns:
+Focus on reusable conversational language:
 - What I mean is ...
 - The issue is not X; it's Y.
 - I'm not sure whether ...
@@ -332,24 +211,24 @@ Useful discourse patterns:
 - From what I've seen, ...
 - The reason I prefer X is ...
 
-Representative tasks:
-- listen-and-respond mini-dialogues
-- clarification role-play
-- spoken preference comparison
-- repair a misunderstood statement
-- summarize what another speaker meant
+At the current speaking level, practice these as short sentence frames before using them in longer role-play.
 
----
+## Fresh-input rule
+
+Most new reading/listening material should come from fresh external articles, news, release notes, tutorials, or technical posts when web access is available.
+
+History is for interests and review targets, not for repeatedly generating the same passage topics.
+
+For fast-moving AI/hardware topics, prefer roughly the last 7–30 days. Recompose sources to the current difficulty level and avoid repeating the same non-review subject for about 14 days when reasonable alternatives exist.
 
 ## Weekly balance guideline
 
-Do not force a rigid weekday syllabus. Across roughly 7 completed sessions:
-
-- Listening should appear in most full multimodal sessions.
-- Technical writing/prompting should appear in several sessions.
-- Speaking should appear regularly in evening/weekend voice-capable sessions.
-- Reading should support all tracks and can dominate daytime text-only sessions.
-- Contextual word/phrase/sentence learning should appear in virtually every completed lesson, but remain small enough that the lesson still includes real comprehension and output.
+Across roughly 7 completed sessions:
+- listening appears in most full sessions, but stays at the learner's calibrated L-level,
+- technical writing/prompting appears several times,
+- reading supports learning and provides fresh information,
+- speaking appears regularly but always as a short final stage until S-level improves,
+- contextual words/phrases/sentence patterns appear in virtually every lesson.
 
 Topic rotation guideline:
 - 2–3 sessions: Track A
@@ -357,16 +236,13 @@ Topic rotation guideline:
 - 1 session: Track D or E
 - 1 session: Track F or mixed review
 
-Review can replace any new-content session when the queue is heavy.
-
 ## Advancement rule
 
-Move an item toward `learned.md` only when the learner can demonstrate appropriate active mastery without heavy prompting, for example:
+Move an item toward `learned.md` only after active evidence such as:
+- understanding it from audio when listening matters,
+- using it naturally in a new sentence,
+- distinguishing it from a confusable alternative,
+- applying it in a realistic Prompt/task,
+- retrieving it later without heavy prompting.
 
-- understand it from audio when listening mastery matters,
-- explain it correctly in English,
-- use it naturally in a new sentence,
-- distinguish it from a confusable alternative,
-- apply it correctly in a realistic task.
-
-Written recognition alone is not enough for items whose main goal is listening or speaking.
+For speaking/listening levels, advance only after repeated success rather than one successful prompted repetition.
