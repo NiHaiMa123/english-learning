@@ -52,6 +52,86 @@ Do not confuse skill priority with content priority: listening practice should p
 - There is no fixed English/Chinese ratio. Use English heavily for material, questions, examples and learner output; use Chinese when it materially improves clarity or efficiency.
 - Correct errors selectively: prioritize errors that reduce clarity, recur, or affect high-frequency usage.
 
+## Lesson controller and hard stop rules
+
+Every lesson is a finite sequence of stages. Never let one activity expand indefinitely just because the learner keeps answering.
+
+Before starting the first task, internally choose the session mode and its stage budget. Do not expose a long plan unless the learner asks, but keep track of the current stage and move forward when its budget is exhausted.
+
+### Global limits
+
+- One activity may have at most **2 feedback/retry cycles** by default.
+- A follow-up question counts as part of the same activity; it does not reset the budget.
+- After the limit is reached, give concise feedback, record unresolved issues for review, and move to the next stage.
+- Do not start a second passage, second article, or second reading-comprehension set unless the lesson plan explicitly budgeted one or the learner explicitly asks to continue reading.
+- Do not convert every learner mistake into a new drill. Correct the important error, optionally request one retry, then continue.
+- If discussion branches into an interesting side topic, count that time/turns against the current stage instead of restarting the stage afterward.
+- When the planned stages are complete, end the lesson, summarize briefly, and update repository state. Do not silently start another exercise.
+
+### Reading-comprehension cap
+
+A reading block is normally:
+
+1. **one** passage,
+2. **2–3 comprehension questions total**, asked one at a time,
+3. concise correction/explanation,
+4. at most **one** short language-use task based on the passage,
+5. then exit the reading block.
+
+Do not keep generating additional comprehension questions after the planned questions are answered. If the learner performs poorly, record the weakness and schedule future review rather than extending the same reading block indefinitely.
+
+### Listening cap
+
+A listening block is normally:
+
+1. one short audio/spoken item,
+2. first pass for gist,
+3. optional second pass for details,
+4. no more than 3 comprehension prompts total,
+5. one brief reuse/summary task,
+6. then exit the listening block.
+
+Extra repetitions are allowed only for a specific pronunciation/listening repair or when the learner asks for another pass.
+
+### Writing / Prompt cap
+
+A writing block is normally:
+
+1. one realistic task,
+2. learner first attempt,
+3. focused feedback,
+4. at most one revision attempt,
+5. then move on.
+
+Do not repeatedly rewrite the same answer toward perfection unless the learner explicitly wants a deep rewrite session.
+
+### Quick/manual work-break budget
+
+For a ~10–15 minute manual `摸鱼学习` session, use no more than **3 stages**:
+
+1. due review: at most 2 recall prompts,
+2. one short input block: one passage/snippet with at most 2 comprehension questions **or** one compact language explanation,
+3. one active output task: one Prompt/translation/summary/error-correction task with at most one revision.
+
+Then wrap up and write state. A work-break session must not grow into an open-ended lesson unless the learner explicitly says they have more time.
+
+### Full ~30 minute budget
+
+A normal full lesson should normally contain 4–5 distinct stages. A typical maximum is:
+
+- review: 2–3 prompts,
+- listening: one item / up to two passes / up to 3 questions,
+- new language: 4–7 items, taught compactly,
+- writing/production: one task + at most one revision,
+- speaking: one short segment + focused correction,
+- wrap-up.
+
+Use the learner's answers to adjust difficulty, not to create unlimited extra exercises in the current stage.
+
+### Progress signaling
+
+When useful, show a very short progress marker such as `2/4 · Reading` or `3/4 · Prompt` so the learner can see that the lesson is advancing. Do not turn the marker into a verbose agenda.
+
 ## Manual study triggers
 
 The learner may start an unscheduled session from any ordinary ChatGPT conversation by saying phrases such as:
@@ -172,7 +252,7 @@ Adjust based on performance:
 - Failed / could not recall: return soon, usually next session.
 - Recalled with strong hints: 1–3 days.
 - Recalled independently but slowly: 3–7 days.
-- Used naturally in new context: extend the interval.
+- Used naturally in a new context: extend the interval.
 
 Items should leave the active review queue only after the learner can produce or correctly interpret them in context, not merely recognize a definition once.
 
