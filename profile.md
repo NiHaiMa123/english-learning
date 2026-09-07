@@ -6,24 +6,23 @@
 - CET6 written score: **389**
 - Has substantial prior school-English exposure.
 - Current system should optimize for practical use rather than test preparation by default.
+- Do **not** infer speaking or writing proficiency directly from CET scores; calibrate from actual performance.
 
-## Initial goal assumptions
+## Confirmed goal ranking
 
-These are inferred from the learner's recurring real-world activities and should be revised after diagnostic sessions.
+From highest to lowest priority:
 
-High-value outcomes:
+1. **Listening comprehension** — understand English technical videos, explanations, demos, reviews, and ordinary spoken English with less dependence on subtitles.
+2. **Technical writing / prompting** — write precise English prompts, Agent instructions, GitHub content, bug descriptions, constraints, acceptance criteria, and technical explanations.
+3. **Everyday speaking** — become comfortable explaining, clarifying, disagreeing, asking follow-up questions, and holding practical conversations.
+4. **Technical reading** — improve speed and reduce translation dependence when reading documentation, README/issues, model cards, release notes, tutorials, and technical discussions.
 
-1. Read technical documentation, GitHub issues, model cards, release notes, and community discussions faster and with less translation dependence.
-2. Write precise English instructions/prompts for coding agents and generative-media tools.
-3. Describe technical problems, constraints, observations, and trade-offs clearly in English.
-4. Understand common English terminology in AI, software, Blender/3D, rendering, hardware/gaming, and engineering contexts.
-5. Improve active vocabulary and reusable sentence patterns so known passive English becomes usable English.
-6. Gradually improve listening/speaking if the learner wants to include voice-oriented practice.
+Reading remains important, but it is usually used as supporting input rather than consuming most dedicated lesson time.
 
-## Initial content priority
+## High-value domains
 
 ### Tier 1 — very high frequency
-- AI models, agents, prompts, tool use, workflows, evaluation
+- AI models, Agents, prompts, tool use, workflows, evaluation
 - Programming, debugging, GitHub, README/issues/PRs
 - Blender, rigging, animation, rendering, PBR, 3D workflows
 - Image/video generation and post-processing
@@ -35,23 +34,67 @@ High-value outcomes:
 
 ### Tier 3 — supporting skills
 - Everyday conversational English
-- General news/science/technology reading
-- Grammar repair based on actual errors
+- General technology/science content
+- Grammar repair driven by recurring real errors
 
-## Calibration notes
+## Availability and modality
 
-Do not infer speaking/writing proficiency directly from CET scores. Use the first several sessions to measure:
+### Weekdays
+- Stable free time: **after 20:00**.
+- Evening sessions may use **listening, speaking, reading, and writing**.
+- During work hours, the learner may manually start a short session while idle; those sessions should default to **reading/writing only** unless the learner explicitly says audio/voice is practical.
 
+### Weekends
+- Usually free around **12:00**.
+- Weekend scheduled sessions may use the full listening/speaking/reading/writing mix.
+
+## Lesson language policy
+
+There is **no fixed English/Chinese percentage**.
+
+Use English heavily for:
+- source material,
+- questions,
+- examples,
+- role-play,
+- learner output.
+
+Use Chinese when it makes a difficult distinction, grammar explanation, correction, or task instruction substantially clearer or faster. As performance improves, reduce Chinese support naturally rather than enforcing a numerical ratio.
+
+## Listening and speaking policy
+
+Listening/speaking is enabled and should be a regular part of full sessions.
+
+Preferred formats:
+- gist listening
+- detail listening
+- short dictation
+- shadowing / repeat-after-hearing
+- spoken summary
+- technical explanation in voice
+- clarification / disagreement role-play
+- everyday dialogue
+
+If the current interface cannot actually provide or assess audio, do **not** pretend a listening assessment occurred. Substitute reading/writing for that session and keep the listening item pending for a later voice-capable session.
+
+## Calibration targets
+
+Use the first several sessions to measure:
+
+- Listening comprehension at natural and slightly slowed speech
+- Ability to summarize heard content without transcripts
+- Active technical vocabulary
+- Chinese -> English technical reformulation quality
+- Ability to explain familiar technical ideas spontaneously
+- Recurring grammar/collocation errors under time pressure
 - Reading speed and comprehension
-- Active vocabulary
-- Ability to explain technical ideas in English
-- Chinese -> English reformulation quality
-- Grammar errors that recur under time pressure
-- Listening/speaking comfort, if enabled
+- Speaking comfort, fluency, and repair strategies
 
-## Preferences still to confirm
+## Current scheduling preference
 
-- Main goal ranking: reading vs writing/prompting vs listening/speaking vs general conversation
-- Preferred English/Chinese ratio during lessons
-- Whether voice/pronunciation tasks should be regular
-- Preferred daily reminder time
+- Weekday scheduled lesson: after 20:00, preferably around **20:30**.
+- Weekend scheduled lesson: around **12:00**.
+- Normal lesson: about **30 minutes**.
+- Busy option: about **10 minutes**.
+- Extra-time option: add **15–30 minutes**.
+- Postponement is allowed without penalty.
