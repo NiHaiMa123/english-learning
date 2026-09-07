@@ -6,54 +6,97 @@ Build a daily, interactive English-learning routine that normally takes about 30
 
 The repository is the persistent source of truth. A scheduled GPT task should read repository state before each lesson and write progress back after the lesson.
 
-## Daily lesson flow (~30 min)
+Current skill priority:
 
-### 1. Review — 5 min
+1. Listening comprehension
+2. Technical writing / prompting
+3. Everyday speaking
+4. Technical reading
+
+The content itself should remain strongly tied to the learner's real domains: AI/Agents/coding/GitHub, Blender/3D, generative media, PC hardware/gaming, engineering/workplace English, plus practical everyday conversation.
+
+## Default full lesson (~30 min)
+
+### 1. Retrieval review — 5 min
 Use due items from `state/review_queue.md`.
 
 Preferred formats:
 - Chinese -> English recall
+- spoken recall when voice is available
 - cloze
 - error correction
 - choose between near-synonyms and explain why
 - use a target phrase in a new technical sentence
 
-### 2. Realistic input — 7 min
-Use one short piece of realistic English, such as:
-- README or issue-style text
-- Agent instruction
-- Blender tutorial excerpt
-- model/release note
-- hardware review paragraph
-- engineering note
-- short dialogue
+### 2. Listening — 8 min
+This is the highest-priority skill and should appear in most full multimodal sessions.
 
-Ask 2–4 comprehension questions. Avoid dictionary-style teaching before the learner attempts the text.
+Rotate formats:
+- gist: identify the main point without transcript support
+- details: numbers, constraints, causes, comparisons, sequence
+- short dictation
+- identify a phrase from audio and reuse it
+- listen -> summarize in English or Chinese
+- listen -> answer a realistic follow-up question
 
-### 3. New language — 7 min
-Select about 5–8 high-value items from the input.
+Use technical and practical everyday topics rather than generic exam listening whenever possible.
+
+### 3. New language from context — 5 min
+Select about 4–7 genuinely useful items from the day's input.
 
 Prefer:
 - collocations
 - reusable sentence patterns
-- technical terms that recur in the learner's real activities
+- technical terms that recur in real activities
+- spoken chunks that improve listening recognition
 - distinctions that prevent common mistakes
 
-### 4. Production — 8 min
-Require meaningful output. Rotate formats:
+### 4. Technical writing / active production — 7 min
+Rotate realistic outputs:
 - rewrite a Chinese Agent instruction in English
+- write constraints and acceptance criteria
 - explain a bug or workflow failure
-- summarize a technical passage
-- critique a generated image/video result
+- summarize a technical point
+- critique generated image/video output
 - describe a Blender pose/rendering problem
 - compare hardware options
 - translate an engineering observation
-- role-play clarification/disagreement
 
-### 5. Wrap-up — 3 min
-- Correct only important errors.
-- Ask for one final recall or mini-summary.
-- Update the session log and review queue.
+### 5. Speaking + wrap-up — 5 min
+When voice is available:
+- 2–4 minute role-play, spoken summary, clarification, disagreement, or technical explanation
+- one focused fluency/pronunciation correction if useful
+
+Then:
+- correct only important recurring errors
+- do one final retrieval check
+- update the session log and review queue
+
+If audio/voice is unavailable, convert this block to writing/reading and leave audio-specific targets pending.
+
+---
+
+## Quick session (~10 min)
+
+Designed for a busy day or daytime work break.
+
+- 3 min: due review
+- 4 min: one short realistic input or listening item if practical
+- 3 min: one active output task
+
+During weekday work hours, default to text-only reading/writing unless the learner explicitly requests voice/audio.
+
+## Extra-time session (+15–30 min)
+
+Add one substantial activity rather than more vocabulary:
+
+- longer listening with no transcript first
+- voice role-play
+- shadowing / repeat-after-hearing
+- technical video-style explanation
+- realistic GitHub/Agent writing task
+- longer Blender/AI/hardware discussion
+- mixed comprehension + summary task
 
 ---
 
@@ -61,28 +104,35 @@ Require meaningful output. Rotate formats:
 
 This is a starting sequence, not a rigid calendar.
 
-### Session 1 — Diagnostic: Agent / GitHub English
-Goal: measure reading comprehension and active technical expression.
+### Session 1 — Diagnostic: listening + AI/Agent English
+Goal: measure listening comprehension before overfitting the plan to CET written scores.
 
-- Read a ~180–250 word issue/README-style passage.
-- Answer comprehension questions.
-- Explain the issue in 3–5 English sentences.
-- Test high-value chunks such as `reproduce`, `expected behavior`, `constraint`, `workaround`, `root cause`.
-- End with a short Chinese -> English Agent instruction.
+- Short spoken explanation about an AI/Agent or debugging scenario.
+- First pass: gist only, no transcript.
+- Second pass: details and key phrases.
+- Give a short spoken or written summary.
+- End with one Chinese -> English Agent instruction.
 
-### Session 2 — Diagnostic: Technical instruction writing
+Measure:
+- gist comprehension
+- detail retention
+- dependence on transcript/subtitles
+- ability to reuse heard phrases
+
+### Session 2 — Diagnostic: technical instruction writing
 Goal: measure Chinese -> English production.
 
 - Convert 4–6 realistic Chinese instructions into English.
 - Include sequencing, constraints, acceptance criteria, and exceptions.
 - Identify repeated issues in articles, tense, word choice, sentence structure, or technical collocation.
+- Include a short read-aloud or spoken explanation if voice is available.
 
-### Session 3 — Diagnostic: Blender / generative-media explanation
-Goal: measure ability to explain visual/technical problems.
+### Session 3 — Diagnostic: speaking + Blender / generative media
+Goal: measure spontaneous explanation and repair strategies.
 
-- Read a short Blender/rendering or video-generation passage.
-- Explain a realistic problem such as IK, retargeting, temporal consistency, frame interpolation, or seamless looping.
-- Optional short speaking task if voice practice is enabled.
+- Explain a familiar problem such as IK, retargeting, temporal consistency, frame interpolation, or seamless looping.
+- Ask follow-up questions that require clarification, correction, and comparison.
+- Add one short listening segment in the same domain.
 
 ### Session 4 — Agent debugging language
 Focus:
@@ -94,7 +144,7 @@ Focus:
 - fallback
 - root cause
 
-Output: write a concise bug report or debugging instruction.
+Output: concise bug report or debugging instruction, plus short spoken explanation if practical.
 
 ### Session 5 — Blender / 3D language
 Focus:
@@ -108,69 +158,84 @@ Focus:
 
 Output: describe a desired pose/render setup or diagnose a rigging problem.
 
-### Session 6 — General practical communication
-Focus on reusable discourse:
+### Session 6 — Practical conversation
+Focus on reusable spoken discourse:
 - What I mean is ...
 - The issue is not X; it's Y.
 - My concern is that ...
 - This seems inconsistent with ...
 - Could you verify ...?
+- I'm not sure whether ...
 
 Output: clarification/disagreement role-play.
 
-### Session 7 — Review + hardware/engineering mix
+### Session 7 — Integrated review + hardware/engineering
 - Review all due items.
-- Short new input from hardware/gaming or vehicle engineering.
-- Use technical comparison language and quantities/tolerances.
-- Reassess which track should dominate the next week.
+- Short listening or reading input from hardware/gaming or vehicle engineering.
+- Use comparison, quantities, tolerances, and cause/effect language.
+- Reassess next-week balance from actual performance.
 
 ---
 
 ## Difficulty policy
 
-Initial assumption: intermediate reading ability with uneven active production.
+Initial assumption: substantial school-English exposure with unknown listening/speaking strength and uneven active production.
 
-Adjust dynamically:
-- If comprehension is >90% and output is easy, increase density and reduce Chinese support.
-- If comprehension is good but production is weak, keep input difficulty but increase guided output.
-- If vocabulary blocks comprehension, reduce input difficulty and reinforce high-frequency chunks.
-- Do not return to elementary textbook progression unless recurring errors show a real foundation gap.
+Adjust each skill separately:
 
-## Content mix
+- If reading comprehension is >90% and easy, increase density rather than assigning more elementary reading.
+- If listening gist is good but details are weak, keep topic difficulty and increase detail-focused passes.
+- If listening collapses without subtitles, reduce speech density/speed and train chunk recognition before increasing difficulty.
+- If writing is understandable but unnatural, focus on collocations and concise technical phrasing rather than basic grammar drills.
+- If speaking is slow but accurate, train retrieval and repair strategies before adding harder grammar.
+- Do not return to elementary textbook progression unless recurring errors show a genuine foundation gap.
 
-Across roughly 7 completed sessions:
+## Content balance
 
+Skill weighting and topic weighting are separate.
+
+Across most weeks:
+- listening should appear in most full sessions,
+- technical writing/prompting should appear several times per week,
+- speaking should appear regularly in evening/weekend voice-capable sessions,
+- reading supports all tracks but does not need to dominate dedicated lesson time.
+
+Topic rotation across roughly 7 completed sessions:
 - 2–3: AI/Agent/coding/GitHub
 - 1–2: Blender/3D/generative media
 - 1: hardware/gaming or engineering
-- 1: general practical English / mixed review
+- 1: practical everyday English / mixed review
 
 The review queue overrides this mix when necessary.
 
 ## Scheduled-task behavior
 
-The scheduled task should open with four options:
+Weekday scheduled lesson: after 20:00, target around 20:30.
+Weekend scheduled lesson: around 12:00.
 
-1. Start normal ~30 min
+The task should open with four options:
+
+1. Normal ~30 min
 2. Quick ~10 min
 3. Postpone
-4. I have extra time
+4. Extra time
 
-If normal/quick/extra is selected, begin immediately.
+If Normal, Quick, or Extra is selected, begin immediately and interactively.
 
-If postponed, ask for a later time and preserve the queue. Skipping or postponing must not be marked as poor learning performance.
+If postponed, preserve the queue and do not record a failed session. The learner may reschedule for later that day.
 
-### Suggested scheduled-task prompt
+### Scheduled-task prompt
 
-> Open the GitHub repository `NiHaiMa123/english-learning`. Read `AGENTS.md`, `profile.md`, the state files, and recent session logs. Start today's interactive English-learning session according to the repository rules. First offer Normal ~30 min / Quick ~10 min / Postpone / Extra time. Do not dump the full lesson at once; teach interactively and update the repository state after the session.
+Open the GitHub repository `NiHaiMa123/english-learning`. Read `AGENTS.md`, `profile.md`, state files, `curriculum/roadmap.md`, and recent session logs. Start today's interactive English lesson according to repository rules. First offer Normal ~30 min / Quick ~10 min / Postpone / Extra time. Do not dump the lesson at once. Use actual audio/voice for listening only when the current interface supports it; otherwise substitute text work and keep listening items pending. After a completed session, update the repository state and session log.
 
 ## Success criteria after 4–6 weeks
 
-The learner should show measurable improvement in:
+Look for measurable improvement in:
 
-- reading technical English without translating every sentence,
+- understanding short English technical explanations without transcript dependence,
+- retaining details from spoken English,
 - writing precise Agent prompts/instructions directly in English,
-- explaining bugs and trade-offs naturally,
-- understanding recurring Blender/AI/hardware terminology,
-- retrieving learned chunks actively rather than only recognizing them,
-- producing concise English summaries of familiar technical topics.
+- explaining familiar technical problems more spontaneously,
+- using clarification and repair strategies in conversation,
+- reading technical English without translating every sentence,
+- retrieving learned chunks actively rather than merely recognizing them.
