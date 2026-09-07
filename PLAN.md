@@ -15,17 +15,19 @@ The repository is the persistent source of truth. Scheduled or manual lessons sh
 
 Speaking is intentionally last because the first Voice calibration showed that spontaneous speaking is currently much weaker than written production and becomes difficult when too much English is used before sufficient scaffolding.
 
+Listening remains the highest-priority skill, but **it should not be the first difficult activity**. At the current stage, essential vocabulary/chunks should usually be previewed before listening.
+
 ## Calibration-driven reset after 2026-09-07
 
 The first Voice lesson was too difficult at the beginning. A natural technical paragraph of roughly 80–100 words produced near-total comprehension failure. Repetition alone did not help; the learner needed Chinese explanation and much shorter English.
 
-Therefore the plan now uses **successive difficulty ladders** rather than assuming intermediate listening/speaking from CET scores.
+Therefore the plan now uses **successive difficulty ladders plus vocabulary-first scaffolding** rather than assuming intermediate listening/speaking from CET scores.
 
 ### Listening: current starting level L0
 
 - One short sentence at a time, typically 5–10 words.
-- Mostly familiar/high-frequency words.
-- At most one new word or chunk in the sentence.
+- Mostly familiar/high-frequency words or words previewed immediately before the listening.
+- At most one low-risk new word or chunk in the sentence.
 - One simple task only: identify a keyword, choose the meaning, or state the main idea.
 - If the first attempt fails, simplify or explain in Chinese quickly instead of replaying a dense sentence several times.
 - Move to longer material only after repeated successful sessions.
@@ -53,6 +55,7 @@ At the current stage, Voice should be **Chinese-led**.
 
 Use Chinese for:
 - explaining what the task is,
+- pre-listening vocabulary/chunk explanation,
 - vocabulary/grammar explanations,
 - corrections,
 - rescue after failed listening,
@@ -79,9 +82,22 @@ Preferred formats:
 - error correction,
 - short spoken recall if Voice is active.
 
-### 2. Listening — 6–8 min
+### 2. Pre-listening vocabulary / chunks — 5–6 min
 
-Highest-priority skill, but use the current L-level rather than natural technical paragraphs by default.
+Preview roughly **2–4 essential items** needed for the day's listening.
+
+For each item, normally give:
+- the relevant Chinese meaning,
+- one short natural example,
+- a useful chunk/collocation when relevant.
+
+Do not pre-teach every word. The target is to make the listening roughly **80–90% known or just-previewed language**, while leaving a small amount that can be inferred from context.
+
+At the current level, this stage is important because the main bottleneck is not only speed; it is also recognizing word boundaries and retrieving vocabulary from audio.
+
+### 3. Listening — 5–7 min
+
+Highest-priority skill, but use the current L-level and the vocabulary just previewed.
 
 At L0:
 - 2–4 separate short sentences total,
@@ -91,9 +107,9 @@ At L0:
 
 Do not spend the whole block trying to force understanding of one sentence that is clearly above level.
 
-### 3. Contextual language — 6–7 min
+### 4. Contextual language expansion — 4–5 min
 
-Teach about **4–7 useful items** from the day's listening, fresh reading, learner errors, or output needs.
+Add or clarify useful items that emerged from the listening/fresh source so the whole lesson contains about **4–7 useful language items total**, including the pre-listening preview.
 
 Use a mix of:
 - words,
@@ -107,9 +123,7 @@ Each item should normally include:
 - at least one natural contextual example,
 - one chance to reuse or retrieve it.
 
-Examples should come from realistic AI/Agent/GitHub, Blender/3D, generative media, hardware/gaming, engineering, or everyday contexts.
-
-### 4. Technical writing / Prompt — 7–8 min
+### 5. Technical writing / Prompt — 6–8 min
 
 One realistic task, one first attempt, focused feedback, at most one revision.
 
@@ -121,17 +135,17 @@ Examples:
 - compare two options,
 - use 2–4 language items learned earlier in the session.
 
-### 5. Reading / fresh input — 3–5 min
+### 6. Reading / fresh input — 3–5 min
 
 Reading comes before speaking.
 
-Use one short passage/snippet or integrate the reading into the contextual-language/writing stages. Reading should remain finite:
+Use one short passage/snippet or integrate reading into the vocabulary/writing stages. Reading should remain finite:
 - one passage,
 - 2–3 questions maximum,
 - optionally one reuse task,
 - then exit.
 
-### 6. Speaking — 3–5 min, always last
+### 7. Speaking — 3–5 min, always last
 
 Current default is S0–S1.
 
@@ -143,7 +157,7 @@ Use only one short task such as:
 
 Do not end a normal lesson with a demanding spontaneous monologue. If speaking becomes blocked, simplify once, record the issue, and stop.
 
-### 7. Wrap-up
+### 8. Wrap-up
 
 Briefly summarize:
 - what was learned,
@@ -152,6 +166,45 @@ Briefly summarize:
 - next session's difficulty level.
 
 Then update repository state.
+
+## Voice delivery and accent policy
+
+The learner reported two separate problems:
+
+1. Chinese Voice had a noticeable regional accent that reduced comfort and sometimes intelligibility.
+2. English Voice sounded less clear than exam-style listening or carefully presented YouTube speech.
+
+Current operating rule: treat accent/style requests as **best-effort steering**, not a guaranteed accent lock.
+
+### Chinese
+
+- Request **clear Mainland Standard Mandarin / standard Putonghua**.
+- Keep explanations concise and easy to parse.
+- If a Voice continues to have a strong regional accent that harms comprehension, **switch to another Voice** rather than repeatedly trying to prompt the same Voice into a different accent.
+- Do not assume any named Voice is guaranteed to remain perfectly standard in Mandarin.
+
+### English at L0–L1
+
+For learning audio, request:
+
+- **clear General American English**,
+- slower-than-casual delivery,
+- clear articulation,
+- one short sentence at a time,
+- minimal `uh / um / hmm` fillers,
+- minimal unnecessary hesitation,
+- clearer word boundaries than normal casual conversation.
+
+Do not intentionally use fast connected speech yet. As listening improves, gradually reintroduce natural reductions, linking, fillers, and faster YouTuber/conversational rhythm.
+
+### Pronunciation reference
+
+Do not treat free-form Voice output as the sole canonical pronunciation source for individual words.
+
+For a specific word:
+- prefer a controlled pronunciation card or another standard-pronunciation reference when available,
+- use Voice mainly for sentence-level listening, guided repetition, and conversation,
+- only record pronunciation problems that were actually heard/identified in Voice; do not infer pronunciation from transcript spelling alone.
 
 ## Quick / manual work-break session (~10–15 min)
 
@@ -187,7 +240,7 @@ The key constraint is: **fresh information, but simplified enough for the curren
 - Do not convert every error into another drill.
 - Reading: one passage only unless explicitly planned otherwise.
 - Writing: one task + at most one revision.
-- Listening: if comprehension collapses, step down in difficulty rather than extending endlessly.
+- Listening: if comprehension collapses, simplify/translate and step down in difficulty rather than extending endlessly.
 - Speaking: one short final task at current S-level.
 - When planned stages are complete, end the lesson.
 
@@ -221,10 +274,11 @@ If Normal, Quick, or Extra is selected, begin immediately. If postponed, preserv
 
 Before trying long spontaneous conversations, look for:
 
-- reliable understanding of short L0 sentences,
+- reliable understanding of short L0 sentences after a small vocabulary preview,
 - gradual progression to L1 without heavy rescue,
 - ability to recognize and reuse common chunks from audio,
 - more automatic use of `fewer`, `suggest + -ing`, `prioritize fixing`, and similar structures,
 - ability to produce one short spoken sentence with less hesitation,
 - technical writing that becomes more natural and concise,
-- reading that remains interesting through fresh external topics rather than recycled chat history.
+- reading that remains interesting through fresh external topics rather than recycled chat history,
+- reduced dependence on extremely slow/over-articulated English before gradually returning toward natural conversational speech.
