@@ -1,84 +1,91 @@
 # Curriculum Roadmap
 
-This curriculum is adaptive rather than date-locked. Progress depends on demonstrated performance, not merely completing a lesson.
+This curriculum is adaptive rather than date-locked. Progress depends on demonstrated retention and active use, not merely completing a lesson.
 
-## Current priority order
+## Temporary Phase V — Vocabulary foundation
 
-1. **Listening comprehension**
-2. **Technical writing / prompting**
-3. **Technical reading**
-4. **Everyday speaking**
+Period: **2026-09-08 through 2026-10-07**.
 
-Speaking remains a long-term goal, but is now deliberately placed last in the lesson sequence and in current priority because the first Voice calibration showed that spontaneous speaking is much weaker than written production.
+Reassessment checkpoint: **on or after 2026-10-08**.
 
-## Phase 0 — Recalibration
+During this phase, planned listening and speaking are suspended. The curriculum concentrates on building a larger usable lexical base first.
 
-The first Voice session on 2026-09-07 established that CET written scores substantially overstate current listening/speaking readiness.
+### Current phase priorities
 
-### Listening progression
+1. **Vocabulary / chunks / collocations / sentence patterns / domain expressions**
+2. **Technical reading as contextual input**
+3. **Technical writing / prompting as active retrieval and reuse**
+4. **Listening and speaking deferred until reassessment**
 
-Start at L0:
-- one 5–10 word sentence,
-- mostly familiar vocabulary,
-- one simple comprehension task,
-- Chinese rescue after one failed attempt.
+This temporary phase overrides the earlier listening-first roadmap.
 
-Progress through:
-- L1: 20–40 words,
-- L2: 40–80 words,
-- L3: 80–140 words of natural technical/everyday speech.
+## Phase goals
 
-Do not advance because a calendar says to advance. Advance after repeated successful comprehension.
+By the reassessment checkpoint, aim for evidence that the learner has:
 
-### Speaking progression
+- retained a meaningful set of high-frequency words/chunks across repeated reviews,
+- reduced hesitation when retrieving common technical expressions in writing,
+- improved ability to understand fresh technical text without translating every word,
+- learned reusable sentence frames rather than only isolated word meanings,
+- built enough lexical familiarity that later listening practice can focus more on sound recognition and less on unknown vocabulary.
 
-Start at S0–S1:
-- repeat a chunk,
-- complete a sentence frame,
-- choose between two expressions,
-- produce one short sentence from Chinese.
+Do not use a raw count of introduced words as the main success metric. Retention and active reuse matter more.
 
-Later progression:
-- S2: two connected sentences,
-- S3: 20–60 second guided explanation,
-- S4: longer spontaneous conversation.
+## Vocabulary architecture
 
-Speaking is the final active stage of a normal lesson so the learner can reuse language already practiced earlier that day.
+Use four item types:
 
-## Mandatory language-learning layer
-
-Every normal lesson should deliberately teach a small set of reusable language items from the day's context.
-
-Use a mix of:
-
-1. **Word** — a high-value individual word whose meaning or usage is unstable.
-2. **Phrase / collocation / chunk** — preferred when a reusable unit exists.
+1. **Word** — a high-value individual word.
+2. **Phrase / collocation / chunk** — preferred when a reusable multi-word unit exists.
 3. **Sentence pattern** — a reusable grammatical/discourse frame.
-4. **Domain expression** — a technical expression useful as a unit.
+4. **Domain expression** — a technical expression best learned as one unit.
 
-Quantity:
-- Normal lesson: about **4–7 new items**.
-- Quick/manual lesson: about **2–4 new items**.
+Prefer this rough hierarchy when choosing what to teach:
 
-Each item should normally include:
+`reusable chunk > sentence pattern > domain expression > isolated word`
+
+Examples:
+- `narrow down the cause`
+- `meet the acceptance criteria`
+- `prioritize fixing ...`
+- `The issue is not X; it's Y.`
+- `frame-time spike`
+- `prompt adherence`
+
+## Lesson quantity guidance
+
+### Normal ~30 min
+
+- review about **4–8 due items**,
+- introduce about **6–10 new items** when the learner is handling the load well,
+- use one fresh short context,
+- finish with one written task that reuses several items.
+
+If retention starts falling, reduce new-item count rather than forcing a quota.
+
+### Quick/manual ~10–15 min
+
+- review 3–5 due items,
+- introduce 3–5 new items,
+- one short written reuse task.
+
+## Teaching standard for each item
+
+Normally include:
+
 - relevant Chinese meaning,
-- useful collocation or grammar note when needed,
+- collocation/grammar note when useful,
 - at least one natural contextual example,
-- one opportunity to recognize, retrieve, or use it.
+- contrast/common mistake when useful,
+- later retrieval in a changed context.
+
+Do not consider an item learned after one explanation.
 
 Use the loop:
 
-`context -> notice useful language -> understand it -> reuse it -> review later in a different context`
-
-Do not count an item as learned because its translation was shown once.
+`fresh context -> notice useful language -> understand -> retrieve -> reuse -> spaced review -> use in a different context`
 
 ## Track A — Agent / coding / GitHub English
-
-Core abilities:
-- Give precise instructions and constraints.
-- Describe bugs and reproduction steps.
-- Discuss implementation choices and trade-offs.
-- Understand spoken/written explanations of technical workflows.
 
 High-value themes:
 - expected vs actual behavior
@@ -95,16 +102,18 @@ High-value themes:
 - constraint
 - assumption
 - verify / validate
-- isolate / narrow down
+- isolate the issue
+- narrow down the cause
 - root cause
 - trade-off
 - backward compatibility
+- branch / commit / diff / merge / rebase / revert
 
-Representative tasks:
-- understand one short debugging sentence,
+Representative written tasks:
 - rewrite an Agent instruction,
-- write a concise bug report,
-- explain why one pipeline step failed.
+- write one concise bug description,
+- state constraints and acceptance criteria,
+- compare two implementation choices.
 
 ## Track B — Blender / 3D / rendering English
 
@@ -117,18 +126,18 @@ High-value themes:
 - UV mapping
 - normals
 - roughness / metallic / specular
-- PBR materials
+- PBR material
 - shader
-- viewport vs final render
+- viewport / final render
 - keyframe / interpolation
 - cloth simulation / collision
 - camera framing / focal length / depth of field
 
-Representative tasks:
-- understand one short tutorial sentence,
+Representative written tasks:
 - describe a desired pose,
-- explain a rigging/rendering problem in writing first,
-- later reuse one short sentence in Voice.
+- explain a rigging/rendering issue,
+- translate a Blender workflow instruction,
+- compare two material/camera choices.
 
 ## Track C — Generative image/video English
 
@@ -146,11 +155,11 @@ High-value themes:
 - keyframe / endpoint
 - visual fidelity
 
-Representative tasks:
-- understand short workflow statements,
-- turn a Chinese visual request into a concise English prompt,
-- critique a generation,
-- explain one frame-rate/looping issue.
+Representative written tasks:
+- rewrite a generation prompt,
+- describe visual defects,
+- compare two workflow choices,
+- explain one looping/interpolation problem.
 
 ## Track D — Hardware / gaming technology English
 
@@ -169,10 +178,10 @@ High-value themes:
 - refresh rate
 - image-quality trade-off
 
-Representative tasks:
-- understand a short review statement,
+Representative written tasks:
 - summarize a hardware comparison,
-- explain one performance symptom.
+- explain one performance symptom,
+- compare native rendering vs upscaling/frame generation.
 
 ## Track E — Engineering / workplace English
 
@@ -192,14 +201,14 @@ High-value themes:
 - nominal value
 - upper / lower limit
 
-Representative tasks:
-- translate one vehicle evaluation note,
+Representative written tasks:
+- translate a vehicle evaluation note,
 - explain a dimensional requirement,
 - distinguish nominal value, tolerance, and total allowed range.
 
 ## Track F — General practical English
 
-Focus on reusable conversational language:
+Useful reusable patterns:
 - What I mean is ...
 - The issue is not X; it's Y.
 - I'm not sure whether ...
@@ -211,38 +220,56 @@ Focus on reusable conversational language:
 - From what I've seen, ...
 - The reason I prefer X is ...
 
-At the current speaking level, practice these as short sentence frames before using them in longer role-play.
+During this phase, practice these mainly in writing and contextual retrieval rather than role-play.
 
 ## Fresh-input rule
 
-Most new reading/listening material should come from fresh external articles, news, release notes, tutorials, or technical posts when web access is available.
+Most new contextual material should come from fresh external articles, news, release notes, tutorials, or technical posts when web access is available.
 
 History is for interests and review targets, not for repeatedly generating the same passage topics.
 
-For fast-moving AI/hardware topics, prefer roughly the last 7–30 days. Recompose sources to the current difficulty level and avoid repeating the same non-review subject for about 14 days when reasonable alternatives exist.
+For fast-moving AI/hardware topics, prefer roughly the last 7–30 days. Recompose sources to the learner's current reading level and avoid repeating the same non-review subject for about 14 days when reasonable alternatives exist.
 
-## Weekly balance guideline
+Reading is a vocabulary vehicle, not the main test. Usually one short passage/snippet and at most 1–2 comprehension questions.
+
+## Weekly balance guideline during Phase V
 
 Across roughly 7 completed sessions:
-- listening appears in most full sessions, but stays at the learner's calibrated L-level,
-- technical writing/prompting appears several times,
-- reading supports learning and provides fresh information,
-- speaking appears regularly but always as a short final stage until S-level improves,
-- contextual words/phrases/sentence patterns appear in virtually every lesson.
 
-Topic rotation guideline:
-- 2–3 sessions: Track A
-- 1–2 sessions: Track B/C
-- 1 session: Track D or E
-- 1 session: Track F or mixed review
+- 2–3 sessions: Track A,
+- 1–2 sessions: Track B/C,
+- 1 session: Track D or E,
+- 1 session: Track F or mixed review.
 
-## Advancement rule
+Every session should include spaced review and active retrieval.
 
-Move an item toward `learned.md` only after active evidence such as:
-- understanding it from audio when listening matters,
+No planned listening/speaking quota exists during this phase.
+
+## Advancement and mastery rule
+
+Move an item toward `state/learned.md` only after active evidence such as:
+- retrieving it without heavy prompting,
 - using it naturally in a new sentence,
 - distinguishing it from a confusable alternative,
-- applying it in a realistic Prompt/task,
-- retrieving it later without heavy prompting.
+- applying it correctly in a realistic Prompt/task,
+- recognizing it in a different contextual passage.
 
-For speaking/listening levels, advance only after repeated success rather than one successful prompted repetition.
+## Reassessment on or after 2026-10-08
+
+Review the previous month of repository state and session logs.
+
+Check:
+- introduced vs retained items,
+- overdue review load,
+- active recall success,
+- natural written reuse,
+- reading unknown-word density,
+- whether lexical retrieval feels less effortful.
+
+Then decide whether to:
+- continue vocabulary foundation,
+- reintroduce short listening first,
+- reintroduce speaking later,
+- or rebalance the curriculum another way.
+
+Listening and speaking do not need to return together.
