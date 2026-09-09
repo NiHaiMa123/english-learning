@@ -5,3 +5,4 @@ Only place items here after the learner has demonstrated usable understanding or
 | Item | Type | Domain | Evidence | Last demonstrated | Notes |
 |---|---|---|---|---|---|
 | `prioritize fixing ...` | sentence pattern | technical writing / Agent | Recalled independently from Chinese cue on 2026-09-09 after guided exposure on 2026-09-07 | 2026-09-09 | Written mastery only; pronunciation of `prioritize` remains deferred for later Voice reassessment |
+| `suggest fixing ...` | sentence pattern | technical writing / Agent | Recalled independently in a new Blender context on 2026-09-09: `I suggest fixing ...`; noun choice for 穿模 was wrong, but the target `suggest + -ing` pattern was correct | 2026-09-09 | Written mastery of the sentence pattern |
