@@ -26,6 +26,14 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - backward compatibility
 - branch / commit / pull request / diff / merge / rebase / revert
 
+### Agent permissions / safety — introduced 2026-09-09
+- have access to ...
+- grant access
+- revoke access
+- sensitive action(s)
+- require user approval / should require user approval
+- explicit permission / without explicit permission
+
 ## Priority B — Blender / 3D / rendering
 
 - rig / armature / bone hierarchy
