@@ -54,6 +54,16 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - focal length
 - depth of field
 
+### Cloth / collision — introduced 2026-09-09
+- clip through ... / clipping
+- collision / collision object / collider
+- penetration / reduce penetration
+- self-collision
+- intersect with ... / intersect with itself
+- prevent A from doing B
+- add a small clearance between A and B
+- increase collision quality
+
 ## Priority C — Generative image/video
 
 - prompt adherence
