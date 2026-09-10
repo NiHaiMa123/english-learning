@@ -34,6 +34,15 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - require user approval / should require user approval
 - explicit permission / without explicit permission
 
+### GitHub PR / Agent context — introduced 2026-09-09
+- merge-ready / make a pull request merge-ready
+- fix failed checks
+- resolve review feedback
+- resolve merge conflicts
+- content exclusion(s)
+- sensitive code / sensitive files
+- keep A out of B
+
 ## Priority B — Blender / 3D / rendering
 
 - rig / armature / bone hierarchy
