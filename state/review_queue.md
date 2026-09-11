@@ -12,18 +12,23 @@ This file is the active spaced-review queue.
 | `sensitive action(s)` | phrase | Agent / safety | 2026-09-12 | 3 days | On 2026-09-09 evening independently produced `These are sensitive actions.` with correct spelling | 2026-09-09 |
 | `should require user approval` | chunk / sentence pattern | Agent / safety | 2026-09-12 | 3 days | On 2026-09-09 evening independently produced `This operation should require user approval.` | 2026-09-09 |
 | `without explicit permission` | chunk | Agent / permissions | 2026-09-12 | 3 days | Produced correctly in two written contexts | 2026-09-09 |
-| `clip through ...` / `clipping` | verb phrase / noun | Blender / 3D | 2026-09-10 | 1 day | Produced correctly in multiple sentences; initial attempt used `model overboard` for 穿模 | 2026-09-09 manual |
-| `collision` vs `clipping` | contrast pair | Blender / cloth | 2026-09-10 | 1 day | Correctly distinguished in a three-way contrast with `clearance` | 2026-09-09 manual |
-| `penetration` | noun | Blender / cloth | 2026-09-10 | 1 day | Used correctly earlier, but final writing used plural `penetrations`; countability/use needs review | 2026-09-09 manual |
-| `self-collision` / `intersect with itself` | chunk | Blender / cloth | 2026-09-10 | 1 day | `self-collision` recalled; expression for self-intersection needed correction | 2026-09-09 manual |
-| `prevent A from doing B` | sentence pattern | general technical / Blender | 2026-09-11 | 1 day | Misused in Agent context as `prevent sensitive code from the agent's context`; needs `from entering ...` | 2026-09-09 manual |
-| `add a small clearance between A and B` | chunk | Blender / engineering | 2026-09-12 | 3 days | Produced correctly and reused in final task | 2026-09-09 manual |
+| `collision` vs `clipping` | contrast pair | Blender / cloth | 2026-09-12 | 1 day | On 2026-09-11 used both concepts, but the phrase `Even with collision enabled` needed correction; keep one more contrast check | 2026-09-09 manual |
+| `penetration` | noun | Blender / cloth | 2026-09-12 | 1 day | On 2026-09-11 again produced plural `penetrations`; corrected to mass-noun use in `reduce penetration` | 2026-09-09 manual |
+| `self-collision` / `intersect with itself` | chunk | Blender / cloth | 2026-09-12 | 1 day | Recalled `self-collision`, but wrote `self-collision enabled` and `clip through itself`; needs `Enabling self-collision ... intersect with itself` | 2026-09-09 manual |
 | `merge-ready` | adjective | GitHub / Agent | 2026-09-11 | 1 day | Correctly produced in `make the pull request merge-ready` | 2026-09-09 scheduled |
 | `fix failed checks` | chunk | GitHub / CI | 2026-09-11 | 1 day | Correctly retrieved and reused in final prompt | 2026-09-09 scheduled |
 | `resolve review feedback` | chunk | GitHub / PR review | 2026-09-11 | 1 day | Correctly retrieved and reused in final prompt | 2026-09-09 scheduled |
 | `resolve merge conflicts` | chunk | GitHub / Git | 2026-09-11 | 1 day | Initially wrote `solve the pull conflicts`; later corrected and reused | 2026-09-09 scheduled |
 | `content exclusion(s)` | domain expression | GitHub / Agent safety | 2026-09-11 | 1 day | Produced `Content exclusions ...`; needs later contextual recall | 2026-09-09 scheduled |
 | `keep A out of B` | sentence pattern / chunk | Agent / permissions | 2026-09-11 | 1 day | Correctly produced after contrast with `prevent A from doing B`; final task reverted to unnatural `make ... into` | 2026-09-09 scheduled |
+| `count toward ...` / `count as ...` | chunk / contrast | GitHub / requirements | 2026-09-12 | 1 day | Initially interpreted `count toward` as replace; then independently produced `This approval can count toward one of the two required approvals.` | 2026-09-11 |
+| `dismissed` / `approval is dismissed` | word / passive chunk | GitHub / PR review | 2026-09-12 | 1 day | Correctly recognized meaning and produced passive form in later integrated task | 2026-09-11 |
+| `authorize A to do B` | sentence pattern | Agent / permissions | 2026-09-12 | 1 day | Initial noun-phrase form needed correction; then correctly produced `authorize the agent to modify these files` | 2026-09-11 |
+| `assess whether ...` vs `verify that ...` | contrast pair | Agent / evaluation | 2026-09-12 | 1 day | Initially confused `assess`; later correctly chose and used `assess whether ...` in several changed contexts | 2026-09-11 |
+| `meet the acceptance criteria` | chunk | Agent / GitHub | 2026-09-12 | 1 day | Used correctly several times; one spelling error in `criteria` occurred | 2026-09-11 |
+| `assume + clause` | sentence pattern | general technical | 2026-09-12 | 1 day | Initial `assume this plan working` was incorrect; final task correctly used `Don't assume the new commit still works.` | 2026-09-11 |
+| `reassess whether ...` | sentence pattern | Agent / evaluation | 2026-09-12 | 1 day | Correctly reused in final integrated Agent instruction | 2026-09-11 |
+| `request a new review` | chunk | GitHub / PR review | 2026-09-12 | 1 day | Meaning understood; final output had spelling error `requirst`; needs clean recall | 2026-09-11 |
 | `prioritize` | pronunciation / retrieval | speaking | deferred | next voice session | Pronunciation-specific review deferred during vocabulary-foundation phase | 2026-09-07 |
 
 ## Rules
