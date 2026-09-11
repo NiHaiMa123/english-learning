@@ -4,7 +4,7 @@ Items here are candidates, not assumptions that the learner does not know them. 
 
 ## Priority A — Agent / coding / GitHub
 
-- acceptance criteria
+- acceptance criteria — introduced 2026-09-11
 - expected behavior / actual behavior
 - reproduce / reproduction steps
 - regression
@@ -16,7 +16,7 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - failure mode
 - fallback
 - constraint
-- assumption
+- assumption / assume + clause — introduced 2026-09-11
 - verify vs validate
 - isolate the issue
 - narrow down the cause
@@ -42,6 +42,16 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - content exclusion(s)
 - sensitive code / sensitive files
 - keep A out of B
+
+### Agent evaluation / PR approval — introduced 2026-09-11
+- count toward ... / count as ...
+- dismissed / an approval is dismissed
+- authorize A to do B
+- assess whether ...
+- assess whether ... vs verify that ...
+- meet the acceptance criteria
+- reassess whether ...
+- request a new review
 
 ## Priority B — Blender / 3D / rendering
 
