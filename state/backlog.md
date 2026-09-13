@@ -5,23 +5,24 @@ Items here are candidates, not assumptions that the learner does not know them. 
 ## Priority A — Agent / coding / GitHub
 
 - acceptance criteria — introduced 2026-09-11
-- expected behavior / actual behavior
-- reproduce / reproduction steps
-- regression
-- workaround
-- edge case
-- dependency
-- deterministic / nondeterministic
-- bottleneck
+- expected behavior / actual behavior — introduced 2026-09-13
+- reproduce / reproduction steps — `reproduce the issue` introduced 2026-09-13
+- regression — introduced 2026-09-13
+- workaround — introduced 2026-09-13
+- edge case — introduced 2026-09-13
+- dependency — introduced 2026-09-13
+- deterministic / nondeterministic — `nondeterministic` introduced 2026-09-13
+- bottleneck — introduced 2026-09-13
 - failure mode
-- fallback
-- constraint
+- fallback — introduced 2026-09-13
+- constraint — introduced 2026-09-13
 - assumption / assume + clause — introduced 2026-09-11
 - verify vs validate
-- isolate the issue
-- narrow down the cause
-- root cause
-- trade-off
+- isolate the issue — introduced 2026-09-13
+- narrow down the cause — introduced 2026-09-13
+- root cause — introduced 2026-09-13
+- address the root cause — introduced 2026-09-13
+- trade-off / trade-off between A and B — introduced 2026-09-13
 - scope
 - backward compatibility
 - branch / commit / pull request / diff / merge / rebase / revert
@@ -103,7 +104,7 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - frame time
 - stutter
 - latency
-- bottleneck
+- bottleneck — introduced in AI/performance context 2026-09-13
 - frame generation
 - upscaling
 - VRAM
@@ -112,6 +113,9 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - 1% low
 - input lag
 - refresh rate
+- inference speed — introduced 2026-09-13
+- throughput — introduced 2026-09-13
+- increase parallelism — introduced 2026-09-13
 
 ## Priority E — Engineering / workplace
 
@@ -138,7 +142,7 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - Could you verify ...?
 - This seems inconsistent with ...
 - My concern is that ...
-- The main trade-off is ...
+- The main trade-off is ... — introduced 2026-09-13
 - In practice, ...
 - From what I've seen, ...
 - The reason I prefer X is ...
