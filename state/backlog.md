@@ -13,7 +13,7 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - dependency — introduced 2026-09-13
 - deterministic / nondeterministic — `nondeterministic` introduced 2026-09-13
 - bottleneck — introduced 2026-09-13
-- failure mode
+- failure mode — introduced 2026-09-15
 - fallback — introduced 2026-09-13
 - constraint — introduced 2026-09-13
 - assumption / assume + clause — introduced 2026-09-11
@@ -23,7 +23,7 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - root cause — introduced 2026-09-13
 - address the root cause — introduced 2026-09-13
 - trade-off / trade-off between A and B — introduced 2026-09-13
-- scope
+- scope / within the scope of ... / outside the scope of ... / expand the scope — introduced 2026-09-15
 - backward compatibility
 - branch / commit / pull request / diff / merge / rebase / revert
 
