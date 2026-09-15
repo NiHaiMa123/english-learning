@@ -21,18 +21,18 @@ This file is the active spaced-review queue.
 | `resolve merge conflicts` | chunk | GitHub / Git | 2026-09-11 | 1 day | Initially wrote `solve the pull conflicts`; later corrected and reused | 2026-09-09 scheduled |
 | `content exclusion(s)` | domain expression | GitHub / Agent safety | 2026-09-11 | 1 day | Produced `Content exclusions ...`; needs later contextual recall | 2026-09-09 scheduled |
 | `keep A out of B` | sentence pattern / chunk | Agent / permissions | 2026-09-11 | 1 day | Correctly produced after contrast with `prevent A from doing B`; final task reverted to unnatural `make ... into` | 2026-09-09 scheduled |
-| `count toward ...` / `count as ...` | chunk / contrast | GitHub / requirements | 2026-09-14 | 1 day | On 2026-09-13 used `count into` for `count toward`, then correctly produced `count as a sensitive operation`; contrast remains unstable | 2026-09-11 |
+| `count toward ...` / `count as ...` | chunk / contrast | GitHub / requirements | 2026-09-16 | 1 day | On 2026-09-15 the structural distinction was mostly correct, but lexical choices around the target nouns were still inaccurate; keep short interval | 2026-09-11 |
 | `dismissed` / `approval is dismissed` | word / passive chunk | GitHub / PR review | 2026-09-16 | 3 days | On 2026-09-13 correctly reused `If the previous approval is dismissed ...` | 2026-09-11 |
 | `authorize A to do B` | sentence pattern | Agent / permissions | 2026-09-16 | 3 days | On 2026-09-13 correctly produced `authorize the agent to modify these files`; only `administrator` word choice/spelling needed correction | 2026-09-11 |
 | `assess whether ...` vs `verify that ...` | contrast pair | Agent / evaluation | 2026-09-14 | 1 day | `assess whether` was retrieved, but surrounding lexical choice drifted to `verification criteria`; keep contrast active | 2026-09-11 |
-| `meet the acceptance criteria` | chunk | Agent / GitHub | 2026-09-14 | 1 day | On 2026-09-13 later used the chunk correctly, but initially wrote `verification cirteral`; lexical/spelling reinforcement still needed | 2026-09-11 |
-| `assume + clause` | sentence pattern | general technical | 2026-09-16 | 3 days | On 2026-09-13 correctly produced `Don't assume the new commit still works.` and reused `assume` in final task, though final grammar needed `don't assume` | 2026-09-11 |
-| `reassess whether ...` | sentence pattern | Agent / evaluation | 2026-09-14 | 1 day | When explicitly prompted on 2026-09-13, learner used `assess whether` instead of `reassess whether`; needs direct recall | 2026-09-11 |
+| `meet the acceptance criteria` | chunk | Agent / GitHub | 2026-09-18 | 3 days | On 2026-09-15 correctly reused the chunk in a changed input/result context; lexical choice around `result` needed refinement | 2026-09-11 |
+| `assume + clause` | sentence pattern | general technical | 2026-09-16 | 3 days | On 2026-09-15 `don't assume` was recalled, but the complement was still malformed as `assume solving ...`; keep active | 2026-09-11 |
+| `reassess whether ...` | sentence pattern | Agent / evaluation | 2026-09-18 | 3 days | On 2026-09-15 independently produced `reassess whether ... meets the acceptance criteria`; target pattern retrieved correctly | 2026-09-11 |
 | `request a new review` | chunk | GitHub / PR review | 2026-09-16 | 3 days | On 2026-09-13 independently produced `request a new review` cleanly after previous spelling error | 2026-09-11 |
 | `reproduce the issue` | chunk | debugging / Agent | 2026-09-16 | 3 days | Correctly retrieved and reused several times on 2026-09-13 | 2026-09-13 |
 | `narrow down the cause` | chunk | debugging / Agent | 2026-09-14 | 1 day | Correct on first retrieval; final integrated task had spelling error `narraw`, so keep short interval | 2026-09-13 |
-| `root cause` | phrase | debugging / Agent | 2026-09-16 | 3 days | Retrieved correctly in several changed contexts on 2026-09-13 | 2026-09-13 |
-| `workaround` / `use a workaround` | noun / chunk | debugging / Agent | 2026-09-14 | 1 day | First wrote `wordaround`; final task recalled `workaround` but used `take a workaround`; collocation still unstable | 2026-09-13 |
+| `root cause` | phrase | debugging / Agent | 2026-09-16 | 3 days | Retrieved correctly in several changed contexts on 2026-09-13 and again on 2026-09-15 | 2026-09-13 |
+| `workaround` / `use a workaround` | noun / chunk | debugging / Agent | 2026-09-16 | 1 day | On 2026-09-15 correctly retrieved `use a workaround`, but surrounding `assume` structure and temporary-adverb wording were still unstable | 2026-09-13 |
 | `address the root cause` | chunk | debugging / Agent | 2026-09-16 | 3 days | Correctly produced `doesn't address the root cause` in a changed context | 2026-09-13 |
 | `isolate the issue` | chunk | debugging / Agent | 2026-09-14 | 1 day | Target chunk retrieved correctly, but surrounding structure `before judge whether caused by ...` needed correction | 2026-09-13 |
 | `dependency` | noun | debugging / software | 2026-09-14 | 1 day | Meaning understood; article and passive structure needed support | 2026-09-13 |
@@ -46,6 +46,8 @@ This file is the active spaced-review queue.
 | `throughput` | noun | performance / systems | 2026-09-16 | 3 days | Correctly retrieved in a workflow bottleneck sentence; `workflow` spelling was corrected | 2026-09-13 |
 | `nondeterministic` | adjective | debugging / systems | 2026-09-16 | 3 days | Correctly retrieved twice, including the final integrated task | 2026-09-13 |
 | `increase parallelism` | chunk | performance / systems | 2026-09-14 | 1 day | Target phrase understood; learner omitted subject after `even if` | 2026-09-13 |
+| `failure mode` / `identify the failure mode` | domain expression / chunk | debugging / systems | 2026-09-16 | 1 day | Introduced 2026-09-15; learner correctly produced `This problem has two different failure modes.` and reused `identify the failure mode` in the final task | 2026-09-15 |
+| `scope` / `outside the scope of ...` / `expand the scope` | noun / chunks | Agent / software | 2026-09-16 | 1 day | Introduced 2026-09-15; learner recalled `outside the scope` and `expand the scope`, but omitted `is` and initially used unnatural `over pass` wording | 2026-09-15 |
 | `prioritize` | pronunciation / retrieval | speaking | deferred | next voice session | Pronunciation-specific review deferred during vocabulary-foundation phase | 2026-09-07 |
 
 ## Rules
