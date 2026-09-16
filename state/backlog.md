@@ -16,8 +16,8 @@ Items here are candidates, not assumptions that the learner does not know them. 
 - failure mode — introduced 2026-09-15
 - fallback — introduced 2026-09-13
 - constraint — introduced 2026-09-13
-- assumption / assume + clause — introduced 2026-09-11
-- verify vs validate
+- assumption / assume + clause — introduced 2026-09-11; `unverified assumption` and `be based on an assumption` reinforced 2026-09-16
+- verify vs validate — introduced 2026-09-16
 - isolate the issue — introduced 2026-09-13
 - narrow down the cause — introduced 2026-09-13
 - root cause — introduced 2026-09-13
