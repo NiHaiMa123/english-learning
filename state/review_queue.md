@@ -14,7 +14,7 @@ This file is the active spaced-review queue.
 | `without explicit permission` | chunk | Agent / permissions | 2026-09-12 | 3 days | Produced correctly in two written contexts | 2026-09-09 |
 | `collision` vs `clipping` | contrast pair | Blender / cloth | 2026-09-12 | 1 day | On 2026-09-11 used both concepts, but the phrase `Even with collision enabled` needed correction; keep one more contrast check | 2026-09-09 manual |
 | `penetration` / `reduce penetration` | noun / chunk | Blender / cloth | 2026-09-16 | 3 days | On 2026-09-13 independently produced `Increasing collision quality may reduce penetration.` correctly after earlier countability errors | 2026-09-09 manual |
-| `self-collision` / `intersect with itself` | chunk | Blender / cloth | 2026-09-14 | 1 day | Not actively retrieved on 2026-09-13; answer was shown after learner skipped the prompt, so keep high priority | 2026-09-09 manual |
+| `self-collision` / `intersect with itself` | chunk | Blender / cloth | 2026-09-17 | 1 day | On 2026-09-16 retrieved both target expressions, but wrote plural `clothes` with singular `itself`; prefer `the cloth ... itself` | 2026-09-09 manual |
 | `merge-ready` | adjective | GitHub / Agent | 2026-09-11 | 1 day | Correctly produced in `make the pull request merge-ready` | 2026-09-09 scheduled |
 | `fix failed checks` | chunk | GitHub / CI | 2026-09-11 | 1 day | Correctly retrieved and reused in final prompt | 2026-09-09 scheduled |
 | `resolve review feedback` | chunk | GitHub / PR review | 2026-09-11 | 1 day | Correctly retrieved and reused in final prompt | 2026-09-09 scheduled |
@@ -32,7 +32,7 @@ This file is the active spaced-review queue.
 | `reproduce the issue` | chunk | debugging / Agent | 2026-09-16 | 3 days | Correctly retrieved and reused several times on 2026-09-13 | 2026-09-13 |
 | `narrow down the cause` | chunk | debugging / Agent | 2026-09-14 | 1 day | Correct on first retrieval; final integrated task had spelling error `narraw`, so keep short interval | 2026-09-13 |
 | `root cause` | phrase | debugging / Agent | 2026-09-16 | 3 days | Retrieved correctly in several changed contexts on 2026-09-13 and again on 2026-09-15 | 2026-09-13 |
-| `workaround` / `use a workaround` | noun / chunk | debugging / Agent | 2026-09-16 | 1 day | On 2026-09-15 correctly retrieved `use a workaround`, but surrounding `assume` structure and temporary-adverb wording were still unstable | 2026-09-13 |
+| `workaround` / `use a workaround` | noun / chunk | debugging / Agent | 2026-09-17 | 1 day | On 2026-09-16 recalled the target concept but misspelled `workarround`; sentence also needed passive `can't be fixed` and explicit object in `count it as` | 2026-09-13 |
 | `address the root cause` | chunk | debugging / Agent | 2026-09-16 | 3 days | Correctly produced `doesn't address the root cause` in a changed context | 2026-09-13 |
 | `isolate the issue` | chunk | debugging / Agent | 2026-09-14 | 1 day | Target chunk retrieved correctly, but surrounding structure `before judge whether caused by ...` needed correction | 2026-09-13 |
 | `dependency` | noun | debugging / software | 2026-09-14 | 1 day | Meaning understood; article and passive structure needed support | 2026-09-13 |
@@ -47,7 +47,9 @@ This file is the active spaced-review queue.
 | `nondeterministic` | adjective | debugging / systems | 2026-09-16 | 3 days | Correctly retrieved twice, including the final integrated task | 2026-09-13 |
 | `increase parallelism` | chunk | performance / systems | 2026-09-14 | 1 day | Target phrase understood; learner omitted subject after `even if` | 2026-09-13 |
 | `failure mode` / `identify the failure mode` | domain expression / chunk | debugging / systems | 2026-09-16 | 1 day | Introduced 2026-09-15; learner correctly produced `This problem has two different failure modes.` and reused `identify the failure mode` in the final task | 2026-09-15 |
-| `scope` / `outside the scope of ...` / `expand the scope` | noun / chunks | Agent / software | 2026-09-16 | 1 day | Introduced 2026-09-15; learner recalled `outside the scope` and `expand the scope`, but omitted `is` and initially used unnatural `over pass` wording | 2026-09-15 |
+| `scope` / `within the scope of ...` / `outside the scope of ...` / `expand the scope` | noun / chunks | Agent / software | 2026-09-17 | 1 day | On 2026-09-16 retrieved `within the scope of ...` and `expand the scope`, but again omitted the copula in `is within`; final reuse of `expand the scope` was correct | 2026-09-15 |
+| `verify` vs `validate` | contrast pair | Agent / software evaluation | 2026-09-17 | 1 day | Introduced 2026-09-16; learner correctly distinguished specific-result checking (`verify`) from requirements/fitness checking (`validate`) in recognition tasks; active production still needed | 2026-09-16 |
+| `assumption` / `unverified assumption` / `be based on an assumption` | word / chunks | Agent / debugging | 2026-09-17 | 1 day | On 2026-09-16 first produced malformed `bases on ... doesn't be verified`, then correctly reused `unverified assumption` in the final instruction; fixed chunk still needs active recall | 2026-09-16 |
 | `prioritize` | pronunciation / retrieval | speaking | deferred | next voice session | Pronunciation-specific review deferred during vocabulary-foundation phase | 2026-09-07 |
 
 ## Rules
